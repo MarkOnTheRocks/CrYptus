@@ -50,6 +50,8 @@ public class HashActivity extends Activity {
         rdbt1.setChecked(true);
         methodName = (String)rdbt1.getText();
 
+
+
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
