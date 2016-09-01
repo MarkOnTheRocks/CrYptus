@@ -27,7 +27,7 @@ public class HashActivity extends Activity {
 
     String TAG = "Response";
     Button bt;
-    RadioButton rdbt1, rdbt2, rdbt3;
+    RadioButton rdbt1, rdbt2, rdbt3, rdbt4, rdbt5, rdbt6;
     EditText input;
     TextView textView;
     String getInput;
@@ -38,12 +38,14 @@ public class HashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.soap);
-
         bt = (Button) findViewById(R.id.bt);
         input = (EditText) findViewById(R.id.cel);
         rdbt1 = (RadioButton)findViewById(R.id.radioButton1);
         rdbt2 = (RadioButton)findViewById(R.id.radioButton2);
         rdbt3 = (RadioButton)findViewById(R.id.radioButton3);
+        rdbt4 = (RadioButton)findViewById(R.id.radioButton4);
+        rdbt5 = (RadioButton)findViewById(R.id.radioButton5);
+        rdbt6 = (RadioButton)findViewById(R.id.radioButton6);
         textView = (TextView)findViewById(R.id.textView);
         rdbt1.setChecked(true);
         methodName = (String)rdbt1.getText();
@@ -68,6 +70,9 @@ public class HashActivity extends Activity {
                 methodName = (String) rdbt1.getText();
                 rdbt2.setChecked(false);
                 rdbt3.setChecked(false);
+                rdbt4.setChecked(false);
+                rdbt5.setChecked(false);
+                rdbt6.setChecked(false);
             }
         });
 
@@ -77,6 +82,9 @@ public class HashActivity extends Activity {
                 methodName = (String) rdbt2.getText();
                 rdbt1.setChecked(false);
                 rdbt3.setChecked(false);
+                rdbt4.setChecked(false);
+                rdbt5.setChecked(false);
+                rdbt6.setChecked(false);
             }
         });
 
@@ -86,6 +94,45 @@ public class HashActivity extends Activity {
                 methodName = (String) rdbt3.getText();
                 rdbt1.setChecked(false);
                 rdbt2.setChecked(false);
+                rdbt4.setChecked(false);
+                rdbt5.setChecked(false);
+                rdbt6.setChecked(false);
+            }
+        });
+
+        rdbt4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                methodName = (String) rdbt4.getText();
+                rdbt1.setChecked(false);
+                rdbt2.setChecked(false);
+                rdbt3.setChecked(false);
+                rdbt5.setChecked(false);
+                rdbt6.setChecked(false);
+            }
+        });
+
+        rdbt5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                methodName = (String) rdbt5.getText();
+                rdbt1.setChecked(false);
+                rdbt2.setChecked(false);
+                rdbt4.setChecked(false);
+                rdbt3.setChecked(false);
+                rdbt6.setChecked(false);
+            }
+        });
+
+        rdbt6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                methodName = "CesarCode";
+                rdbt1.setChecked(false);
+                rdbt2.setChecked(false);
+                rdbt3.setChecked(false);
+                rdbt4.setChecked(false);
+                rdbt5.setChecked(false);
             }
         });
 

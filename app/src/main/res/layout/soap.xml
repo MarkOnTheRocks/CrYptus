@@ -37,27 +37,34 @@
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MD5"
+        android:text="SHA256"
         android:id="@+id/radioButton2"
         />
 
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SHA256"
+        android:text="SHA512"
         android:id="@+id/radioButton3"
         />
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SHA256"
+        android:text="MD2"
         android:id="@+id/radioButton4"
         />
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SHA256"
+        android:text="MD5"
         android:id="@+id/radioButton5"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cesar Code"
+        android:id="@+id/radioButton6"
         />
 
     <LinearLayout

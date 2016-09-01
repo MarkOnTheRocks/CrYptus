@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -78,10 +79,9 @@ public class PrincipalActivity extends Activity {
             TextView titleView = (TextView) view.findViewById(R.id.title);
             TextView subtitleView = (TextView) view.findViewById(R.id.subTitle);
             ImageView iconView = (ImageView) view.findViewById(R.id.icon);
-
             titleView.setText( mNavItems.get(position).mTitle );
             subtitleView.setText( mNavItems.get(position).mSubtitle );
-            iconView.setImageResource(mNavItems.get(position).mIcon);
+            Picasso.with(this.mContext).load(R.drawable.ic_launcher_off).fit().centerCrop().into(iconView);
 
             return view;
         }
@@ -115,8 +115,9 @@ public class PrincipalActivity extends Activity {
 
         //mImageView.setImageURI(LoginActivity.profileImage);
         mNavItems.add(new NavItem("Home", "Meetup destination", R.drawable.ic_launcher_off));
+        mNavItems.add(new NavItem("On-fly", "Generate one-shot password", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Preferences", "Change your preferences", R.drawable.ic_launcher_off));
-        mNavItems.add(new NavItem("Credits", "Get to know about us", R.drawable.ic_launcher_off));
+        mNavItems.add(new NavItem("Credits", "Get to know about me", R.drawable.ic_launcher_off));
 
         // DrawerLayout
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
@@ -135,13 +136,23 @@ public class PrincipalActivity extends Activity {
             }
 
             private void selectItemFromDrawer(int position) {
-                Fragment fragment = new PreferencesFragment();
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.mainContent, fragment).commit();
-                mDrawerList.setItemChecked(position, true);
-                setTitle(mNavItems.get(position).mTitle);
-                // Close the drawer
-                mDrawerLayout.closeDrawer(mDrawerPane);
+                switch(position) {
+                    case 0:
+                        Fragment fragment = new PreferencesFragment();
+                        FragmentManager fragmentManager = getFragmentManager();
+                        fragmentManager.beginTransaction().replace(R.id.mainContent, fragment).commit();
+                        mDrawerList.setItemChecked(position, true);
+                        setTitle(mNavItems.get(position).mTitle);
+                        // Close the drawer
+                        mDrawerLayout.closeDrawer(mDrawerPane);
+                        break;
+                    case 1:
+                        Intent myIntent = new Intent(PrincipalActivity.this, HashActivity.class);
+                        startActivity(myIntent);
+                        // Close the drawer
+                        mDrawerLayout.closeDrawer(mDrawerPane);
+                }
+
             }
         });
     }
