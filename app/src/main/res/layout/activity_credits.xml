@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hi! I&apos;m Marco and I hope you enjoyed my app. If you want to know more of my work and leave a comment please visit my FB page or tweet me! Thanks!"
+        android:id="@+id/textView4"
+        android:textColor="@color/Black"
+        android:layout_weight="0.15"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="My Facebook profile"
+        android:id="@+id/button"
+        android:backgroundTint="@color/com_facebook_button_background_color"
+        android:textColor="@color/White"
+        android:layout_weight="0.15"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#4099FF"
+        android:text="My twitter account"
+        android:id="@+id/button2"
+        android:textColor="@color/White"
+        android:layout_weight="0.15"
+        android:layout_marginBottom="156dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_gravity="bottom"
+        android:text="CrYpto Corp."
+        android:id="@+id/textView6"
+        android:layout_marginTop="490dp"
+        android:layout_weight="0.50"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

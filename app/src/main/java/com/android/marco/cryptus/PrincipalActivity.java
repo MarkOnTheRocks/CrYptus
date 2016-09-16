@@ -32,6 +32,7 @@ public class PrincipalActivity extends Activity {
         String mSubtitle;
         int mIcon;
 
+
         public NavItem(String title, String subtitle, int icon) {
             mTitle = title;
             mSubtitle = subtitle;
@@ -96,6 +97,8 @@ public class PrincipalActivity extends Activity {
     private TextView mTextViewP;
     private TextView mTextViewEM;
     private ImageView mImageView;
+    private ImageView principal;
+    private TextView instr;
 
     ArrayList<NavItem> mNavItems = new ArrayList<NavItem>();
 
@@ -111,17 +114,22 @@ public class PrincipalActivity extends Activity {
         mTextViewEM = (TextView) findViewById(R.id.desc);
         mTextViewEM.setText(LoginActivity.email);
         mImageView = (ImageView) findViewById(R.id.avatar);
+        principal = (ImageView) findViewById(R.id.principalPic);
+        instr = (TextView) findViewById(R.id.instructions);
+        StringBuffer s = new StringBuffer("<--  ");
+        s.append(instr.getText().toString());
+        instr.setText(s);
+        //Picasso.with(this).load(R.).into(principal);
         Picasso.with(this).load(LoginActivity.profileImage).into(mImageView);
 
         //mImageView.setImageURI(LoginActivity.profileImage);
-        mNavItems.add(new NavItem("Home", "Meetup destination", R.drawable.ic_launcher_off));
+        mNavItems.add(new NavItem("Password Center", "Create, browse and delete your passwords", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("On-fly", "Generate one-shot password", R.drawable.ic_launcher_off));
-        mNavItems.add(new NavItem("Preferences", "Change your preferences", R.drawable.ic_launcher_off));
+        mNavItems.add(new NavItem("Strongness", "Check the strongness of your password", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Credits", "Get to know about me", R.drawable.ic_launcher_off));
 
         // DrawerLayout
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
-
         // Populate the Navigtion Drawer with options
         mDrawerPane = (RelativeLayout) findViewById(R.id.drawerPane);
         mDrawerList = (ListView) findViewById(R.id.navList);
@@ -138,19 +146,29 @@ public class PrincipalActivity extends Activity {
             private void selectItemFromDrawer(int position) {
                 switch(position) {
                     case 0:
-                        Fragment fragment = new PreferencesFragment();
-                        FragmentManager fragmentManager = getFragmentManager();
-                        fragmentManager.beginTransaction().replace(R.id.mainContent, fragment).commit();
-                        mDrawerList.setItemChecked(position, true);
-                        setTitle(mNavItems.get(position).mTitle);
+                        Intent myIntent0 = new Intent(PrincipalActivity.this, DbActivity.class);
+                        startActivity(myIntent0);
                         // Close the drawer
                         mDrawerLayout.closeDrawer(mDrawerPane);
                         break;
                     case 1:
-                        Intent myIntent = new Intent(PrincipalActivity.this, HashActivity.class);
-                        startActivity(myIntent);
+                        Intent myIntent1 = new Intent(PrincipalActivity.this, HashActivity.class);
+                        startActivity(myIntent1);
                         // Close the drawer
                         mDrawerLayout.closeDrawer(mDrawerPane);
+                        break;
+                    case 2:
+                        Intent myIntent2 = new Intent(PrincipalActivity.this, CheckStrongnessActivity.class);
+                        startActivity(myIntent2);
+                        // Close the drawer
+                        mDrawerLayout.closeDrawer(mDrawerPane);
+                        break;
+                    case 3:
+                        Intent myIntent3 = new Intent(PrincipalActivity.this, CreditsActivity.class);
+                        startActivity(myIntent3);
+                        // Close the drawer
+                        mDrawerLayout.closeDrawer(mDrawerPane);
+                        break;
                 }
 
             }

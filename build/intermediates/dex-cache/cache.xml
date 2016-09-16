@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="56232571123131f8c527926e58fabedf5dc17c2c">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6497e8ce52f7e8fbed6caa77f9e0884244aa6aa8\classes.dex" />
+    </item>
+
+</items>

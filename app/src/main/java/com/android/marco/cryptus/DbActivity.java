@@ -6,6 +6,7 @@ package com.android.marco.cryptus;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,7 +18,7 @@ import android.widget.ListView;
 import com.android.marco.cryptus.Database.DBHelper;
 import java.util.ArrayList;
 
-public class DbActivity extends ActionBarActivity {
+public class DbActivity extends AppCompatActivity {
     public final static String EXTRA_MESSAGE = "MESSAGE";
     private ListView obj;
     DBHelper mydb;
@@ -53,7 +54,7 @@ public class DbActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.db_menu, menu);
         return true;
     }
 
