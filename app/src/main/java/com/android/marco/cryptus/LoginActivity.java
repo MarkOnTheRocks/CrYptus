@@ -149,10 +149,10 @@ public class LoginActivity extends FragmentActivity {
                     id = currentProfile.getId();
                     profileImage = currentProfile.getProfilePictureUri(50, 50);
                     System.out.println(profileImage);
-                    info.setText("Correttamente loggato come: " + nome);
+                    info.setText("Successful login as: " + nome);
                     startActivity(intent);
                 } else {
-                    info.setText("Ora sei sloggato. Alle tue password ci penso io");
+                    info.setText("Successful logout. I'll taka care of your passwords");
 
                 }
 
