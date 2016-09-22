@@ -15,6 +15,7 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.marco.cryptus.Database.DBHelper;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -63,10 +64,12 @@ public class LoginActivity extends FragmentActivity {
     public static String id;
     public static String email;
     public static Uri profileImage;
+    private DBHelper mydb;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mydb = new DBHelper(this);
         FacebookSdk.sdkInitialize(getApplicationContext());
         callbackManager = CallbackManager.Factory.create();
         setContentView(R.layout.activity_login);
@@ -89,7 +92,7 @@ public class LoginActivity extends FragmentActivity {
                                 String mFullname = object.getString("name");
                                 System.out.println("nome completo: " + mFullname);
                                 email = object.getString("email");
-                                System.out.println("Ecco la mail da onc " + email);
+                                System.out.println("Ecco la mail da fb " + email);
                                 System.out.println(References.getDate());
 
                             }
@@ -151,9 +154,10 @@ public class LoginActivity extends FragmentActivity {
                     System.out.println(profileImage);
                     info.setText("Successful login as: " + nome);
                     startActivity(intent);
-                } else {
-                    info.setText("Successful logout. I'll taka care of your passwords");
-
+                }
+                else {
+                    info.setText("Successful logout. I'll take care of your passwords");
+                    mydb.close();
                 }
 
             }
@@ -176,6 +180,17 @@ public class LoginActivity extends FragmentActivity {
         profileTracker.stopTracking();
 
     }
+
+
+
+    /*@Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        if(!profileTracker.equals(null)) {
+            profileTracker.stopTracking();
+        }
+    }
+    */
 }
 
 

@@ -24,6 +24,7 @@ public class DbActivity extends AppCompatActivity {
     private ListView obj;
     DBHelper mydb;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,16 +33,22 @@ public class DbActivity extends AppCompatActivity {
         mydb = new DBHelper(this);
         ArrayList array_list = mydb.getAllPasswords();
         System.out.println("Numero di passwords: " + array_list.size());
+        final ArrayList<String> temp = new ArrayList();
+        temp.addAll(array_list);
         ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1, array_list);
         obj = (ListView)findViewById(R.id.listView1);
         obj.setAdapter(arrayAdapter);
         obj.setOnItemClickListener(new OnItemClickListener(){
             @Override
-            public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,long arg3) {
+            public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
                 // TODO Auto-generated method stub
-                int id_To_Search = arg2 + 1;
+                int id_To_Search = arg2+1;
+                String site = temp.get(arg2);
+                System.out.println(site);
+                System.out.println("il valore di idtos è: " + id_To_Search);
                 Bundle dataBundle = new Bundle();
                 dataBundle.putInt("id", id_To_Search);
+                dataBundle.putString("site", site);
                 Intent intent = new Intent(getApplicationContext(),ShowPasswordActivity.class);
                 intent.putExtras(dataBundle);
                 startActivity(intent);

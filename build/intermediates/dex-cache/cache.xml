@@ -2,186 +2,238 @@
 <items version="2" >
 
     <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        is-multidex="true"
+        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.mopub.volley\mopub-volley\1.1.0\4357bce66ae3bb9be50679e43df122fd0a8f3394\mopub-volley-1.1.0.jar"
         jumboMode="true"
-        revision="23.0.2"
-        sha1="d2aacefacad471d2223eba359719b5796606a778">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d7d6065378c6040c57c3a497c96799008f8dbee7\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\marco\OneDrive\Documenti\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_be2bb56b1c7da09138bc0eb856550437b1f67a03\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-interstitial\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="480647ff86598f692c648d1d7da8b97806d3004e">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-interstitial-4.9.0_dd7e9df3d68f8a62962fc607f60c31fd476f4ea6\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-banner\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="22dd02e36666f50344f515cb6b665fe253d341dd">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-banner-4.9.0_5cc5024cc24e8eb57711da0fe7a0420e69126a03\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.5.6\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="3c046dc3c0911d142627192884ee771d9a6f5f34">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.exoplayer-exoplayer-r1.5.6_d243aadeee30aacc765d6df0802c909f600d6518\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="5b267e3869391c80e5181a3dce5c256aef04f514">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7ea59b67a8907e5e8b72e4d0f075d0941b0c8856\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_fcf557d3967ad42b6abb4fe3feedecabff03edf1\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_bc910625af6e9ae97fd96576882cbe02ac08648f\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-rewardedvideo\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="fd0504417661d9e02b3c06015e273c5e6f7115d2">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-rewardedvideo-4.9.0_6d64a77531aa8e7a254f2e631c649ffeed48ce27\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_224881ff70df0a189765b0329b924cb8c834c6e5\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-native-video\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="8ff95b836a54b6228ef323162dcc887a3b1181bd">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-native-video-4.9.0_80c071680682154f3a5902569764ce38bf510dfb\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\libs\dropbox-android-sdk-1.6.3.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="986e7a58e925c6f91b88ae8d3224a0550b65acc7">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\dropbox-android-sdk-1.6.3_a454925e46f68a455d2538c73bcd7599a7790966\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_f47033d6f46835968c45e7e1272f2e9594241f5c\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_d33edf4267854a9fd71cf82acc168d5b54992c5f\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-native-static\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="39272a9ba73cacab5b5f248893e7cbd6b9608c5e">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-native-static-4.9.0_ac7af22a6cd8f767d6271eb70acb6e62a22ad1d8\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-base\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="8ca4762a1bbf07cc027f9d158024ce4e0f47019d">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-base-4.9.0_58036885bb53bb7e7e486ee33c95db5ba60d78a3\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="d03ddcb73c4eb0038aeaa53c10e873a8d8b48f58">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-4.9.0_9d25e39192490947d2a736d01597ee18532fd467\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_4a8c041d0d7ac8b33a679c1e482c1e43a6714661\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.15.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="820605b42a2d3d9cb9e6c4cc7453fb4f802aedff">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.15.0_f3a413cf50ea25ada5fcb30e67492fea62b23dda\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_26c3e80b128aba7cfc217fb03d321cf1509568ab\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\libs\ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-3.4.0-jar-with-dependencies_ea70de26fbba3008cc2cf03b7ded811fffd8749d\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\libs\json_simple-1.1.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\json_simple-1.1_45663c69d6292ddf0917d8c8e77c78590d234af1\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_c974f7f531e514cf2e507bd0953f2fc61b2c0c0f\classes.dex" />
-    </item>
-    <item
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_dd849811c965fd33d6735a9857e405e8829acb12\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.mopub.volley\mopub-volley\1.1.0\4357bce66ae3bb9be50679e43df122fd0a8f3394\mopub-volley-1.1.0.jar"
-        jumboMode="true"
+        optimize="true"
         revision="23.0.2"
         sha1="4357bce66ae3bb9be50679e43df122fd0a8f3394">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\mopub-volley-1.1.0_45114047ce209646ced70a26ad05716133b50b4a\classes.dex" />
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\mopub-volley-1.1.0_2ec0b128d57dbbaf1a25692e14aa7992c325e8c5\classes.dex" />
     </item>
     <item
-        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        is-multidex="true"
+        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
         jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_2d1e108bad38d554f7fa772429be39c1132897f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_58fc12c10bebd8cf41bfe8d9dfafe7db083fd84d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_e1f6101d76914cea8bd632cd3ddbd5acc83f5636\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_73bc03f367c04f674cf88b634fb67145c6e196f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="02fd3beb7add6fab2e90f6f6b98d87836a526b1d">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_17c81e592e53e4e7e682b226c203e27731721a08\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-native-static\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="39272a9ba73cacab5b5f248893e7cbd6b9608c5e">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-native-static-4.9.0_d27b6f7da48b5764aa2d133c2b7499b6d020559f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_6c2a284fdd61d0d8ac24aa3991d9cfbc35ef85c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_87628ac23129fd2ba454f02c4d9438a2685b8f56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_d7029c8b230266fd683dcd1eaacee49afacd0b7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-rewardedvideo\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fd0504417661d9e02b3c06015e273c5e6f7115d2">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-rewardedvideo-4.9.0_6ef233b8da3a375df106c9c13dcc8e81c96e60c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.15.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="820605b42a2d3d9cb9e6c4cc7453fb4f802aedff">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.15.0_27e954077daad49994081f0b9d6baad5c4d3ff1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.5.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3c046dc3c0911d142627192884ee771d9a6f5f34">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.exoplayer-exoplayer-r1.5.6_37ddbda0861e61aa2f19421803ee5a7405a14035\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_5c609c165f611835a86efad66b82e9e4c4ccacd2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-interstitial\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="480647ff86598f692c648d1d7da8b97806d3004e">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-interstitial-4.9.0_ad01690f080e6c77fc70821199a030b9d253626e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3e5a119115cf0b025c5fd9e1bc124ae49e523b6c">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6497e8ce52f7e8fbed6caa77f9e0884244aa6aa8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.2"
         sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_95f85b887812494b7e6e0ea0208067a55a3036c2\classes.dex" />
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_58e66ba26912b583a91b22ba9668b4dd6bcd3b16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-base\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ca4762a1bbf07cc027f9d158024ce4e0f47019d">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-base-4.9.0_489de9691b631fc152f58a9f90f38afe1e361d55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\libs\json_simple-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\json_simple-1.1_7af64972e4939ad95293ac1cebdb0f756f8d7287\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_c659aba594334fcdda16bfe3846bc7c4cf46e2f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d03ddcb73c4eb0038aeaa53c10e873a8d8b48f58">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-4.9.0_8c4d7a669ccab9bc299eeb3f990489fce52f916d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\libs\dropbox-android-sdk-1.6.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="986e7a58e925c6f91b88ae8d3224a0550b65acc7">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\dropbox-android-sdk-1.6.3_473390e95b54f60d9f85966eae5b7bd830e5a1cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-native-video\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ff95b836a54b6228ef323162dcc887a3b1181bd">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-native-video-4.9.0_1b64dd2368559cb3370b3e8b6d472082c49aea52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\libs\ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-3.4.0-jar-with-dependencies_8ea48e83a229414b41f8335835956e925961a05c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-banner\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="22dd02e36666f50344f515cb6b665fe253d341dd">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-banner-4.9.0_49a51da631ed395eda516aefa9a8dbe9b8b71533\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_f216c2ae05f6d3fe86fae09be0c048888a2cfc03\classes.dex" />
     </item>
 
 </items>

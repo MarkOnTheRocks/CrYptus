@@ -33,10 +33,8 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         // TODO Auto-generated method stub
-        db.execSQL(
-                "create table registry " +
-                        "(id integer primary key, site text,alg text,email text, password text,date text)"
-        );
+        db.execSQL("create table registry " + "(id integer primary key, site text,alg text,email text, password text,date text)");
+        //db.execSQL("VACUUM");
     }
 
     @Override
@@ -64,6 +62,19 @@ public class DBHelper extends SQLiteOpenHelper {
         return res;
     }
 
+    public Cursor getIDfromSite(String site) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res =  db.rawQuery( "select id from registry where site=?", new String[] {site});
+        //rawQuery("SELECT id, name FROM people WHERE name = ? AND id = ?", new String[] {"David", "2"});
+        return res;
+    }
+
+    public Cursor getDatafromSite(String site) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res =  db.rawQuery( "select * from registry where site=?", new String[] {site});
+        return res;
+    }
+
     public int numberOfRows(){
         SQLiteDatabase db = this.getReadableDatabase();
         int numRows = (int) DatabaseUtils.queryNumEntries(db, REGISTRY_TABLE_NAME);
@@ -82,16 +93,25 @@ public class DBHelper extends SQLiteOpenHelper {
         return true;
     }
 
-    public Integer deletePassword (Integer id) {
+    public boolean updatePassword (String site, String alg, String email, String password,String date) {
         SQLiteDatabase db = this.getWritableDatabase();
-        return db.delete("registry",
-                "id = ? ",
-                new String[] { Integer.toString(id) });
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("site", site);
+        contentValues.put("alg", alg);
+        contentValues.put("email", email);
+        contentValues.put("password", password);
+        contentValues.put("date", date);
+        db.update("registry", contentValues, "site = ? ", new String[] { site } );
+        return true;
+    }
+
+    public void deletePassword (Integer id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete("registry", "id = ? ", new String[] { Integer.toString(id) });
     }
 
     public ArrayList<String> getAllPasswords() {
         ArrayList<String> array_list = new ArrayList<String>();
-
         //hp = new HashMap();
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor res =  db.rawQuery( "select * from registry", null );
@@ -99,8 +119,16 @@ public class DBHelper extends SQLiteOpenHelper {
 
         while(res.isAfterLast() == false){
             array_list.add(res.getString(res.getColumnIndex(REGISTRY_COLUMN_SITE)));
+            //db.execSQL("select id from registry where REGISTRY_COLUMN_SITE = " + array_list.size());
             res.moveToNext();
         }
+        System.out.println(array_list);
+        System.out.println(db.toString());
         return array_list;
+    }
+
+    public void closeDB() {
+        SQLiteDatabase db = this.getReadableDatabase();
+        db.close();
     }
 }

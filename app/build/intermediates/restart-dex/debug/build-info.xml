@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
     api-level="23"
     density="xxhdpi"
-    format="7"
-    timestamp="5076071743971"
-    token="-5605625995733170023"
-    verifier="COMPATIBLE" >
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="522994482882140"
+    token="-3775522476882194043"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="706" />
+        duration="175" />
     <task
         name="instant-run-dex"
-        duration="971" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="451" />
+        duration="23" />
     <task
         name="verifier"
-        duration="49" />
+        duration="2" />
 
     <artifact
-        location="F:\Android Studio Projects\CrYptus\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
 
-    <build timestamp="4908242461138" >
+    <build
+        timestamp="519354377605390"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="F:\Android Studio Projects\CrYptus\app\build\outputs\apk\app-debug.apk"
+            location="D:\AndroidStudioProjects\CrYptus\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="5076071743971"
-        verifier="COMPATIBLE" >
+        timestamp="522994482882140"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="F:\Android Studio Projects\CrYptus\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

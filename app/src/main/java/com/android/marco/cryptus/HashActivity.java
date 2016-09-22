@@ -40,6 +40,13 @@ public class HashActivity extends Activity {
         setContentView(R.layout.soap);
         bt = (Button) findViewById(R.id.bt);
         input = (EditText) findViewById(R.id.cel);
+        input.setText("Give me a seed");
+        input.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                input.setText("");
+            }
+        });
         rdbt1 = (RadioButton)findViewById(R.id.radioButton1);
         rdbt2 = (RadioButton)findViewById(R.id.radioButton2);
         rdbt3 = (RadioButton)findViewById(R.id.radioButton3);
@@ -49,10 +56,6 @@ public class HashActivity extends Activity {
         textView = (TextView)findViewById(R.id.textView);
         rdbt1.setChecked(true);
         methodName = (String)rdbt1.getText();
-
-
-
-
 
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -131,7 +134,7 @@ public class HashActivity extends Activity {
         rdbt6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                methodName = "CesarCode";
+                methodName = (String) rdbt6.getText();
                 rdbt1.setChecked(false);
                 rdbt2.setChecked(false);
                 rdbt3.setChecked(false);

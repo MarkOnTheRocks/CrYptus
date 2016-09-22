@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Insert string to convert" />
+        android:text="Insert a valid sequence of characters" />
 
     <EditText
         android:id="@+id/cel"
@@ -44,7 +44,7 @@
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SHA512"
+        android:text="SHA384"
         android:id="@+id/radioButton3"
         />
     <RadioButton

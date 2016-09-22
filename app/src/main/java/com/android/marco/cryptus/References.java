@@ -7,16 +7,21 @@ import java.util.Date;
  */
 public class References {
 
-    public static final String address = "http://192.168.0.4:8084";
+    public static final String address = "http://192.168.0.5:8084";
     public static String id;
     public static String name;
     public static String indirizzo;
     public static String IPaddr;
 
 
-    public static String getDate() {
+    public static StringBuffer getDate() {
         Date date = new Date();
-        return date.toString();
+        StringBuffer sb = new StringBuffer(date.toString());
+        int from = sb.indexOf("G");
+        int end = sb.indexOf("+");
+        end+=7;
+        sb.delete(from, end);
+        return sb;
     }
 
 }

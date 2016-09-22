@@ -1,8 +1,6 @@
 package com.android.marco.cryptus;
 
 import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,7 +16,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
@@ -126,6 +123,8 @@ public class PrincipalActivity extends Activity {
         mNavItems.add(new NavItem("Password Center", "Create, browse and delete your passwords", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("On-fly", "Generate one-shot password", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Strongness", "Check the strongness of your password", R.drawable.ic_launcher_off));
+        mNavItems.add(new NavItem("Crack Station", "Has your password already been cracked? Take a look here", R.drawable.ic_launcher_off));
+        //mNavItems.add(new NavItem("Save in the cloud", "Save all your passwords in your Dropbox folder", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Credits", "Get to know about me", R.drawable.ic_launcher_off));
 
         // DrawerLayout
@@ -135,7 +134,7 @@ public class PrincipalActivity extends Activity {
         mDrawerList = (ListView) findViewById(R.id.navList);
         DrawerListAdapter adapter = new DrawerListAdapter(this, mNavItems);
         mDrawerList.setAdapter(adapter);
-
+        mDrawerLayout.openDrawer(mDrawerPane);
         // Drawer Item click listeners
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -164,8 +163,21 @@ public class PrincipalActivity extends Activity {
                         mDrawerLayout.closeDrawer(mDrawerPane);
                         break;
                     case 3:
-                        Intent myIntent3 = new Intent(PrincipalActivity.this, CreditsActivity.class);
+                        Intent myIntent3 = new Intent(PrincipalActivity.this, WebActivity.class);
                         startActivity(myIntent3);
+                        // Close the drawer
+                        mDrawerLayout.closeDrawer(mDrawerPane);
+                        break;
+                    /*case 4:
+                        Intent myIntent4 = new Intent(PrincipalActivity.this, DBoxLoginActivity.class);
+                        startActivity(myIntent4);
+                        // Close the drawer
+                        mDrawerLayout.closeDrawer(mDrawerPane);
+                        break;
+                        */
+                    case 4:
+                        Intent myIntent5 = new Intent(PrincipalActivity.this, CreditsActivity.class);
+                        startActivity(myIntent5);
                         // Close the drawer
                         mDrawerLayout.closeDrawer(mDrawerPane);
                         break;
@@ -175,6 +187,8 @@ public class PrincipalActivity extends Activity {
         });
     }
 
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -182,6 +196,10 @@ public class PrincipalActivity extends Activity {
         return true;
     }
 
-
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(this, LoginActivity.class);
+        startActivity(i);
+    }
 
 }
