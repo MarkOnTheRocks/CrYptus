@@ -348,6 +348,25 @@
                         "endOffset": 12555
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 11660,
+                    "endColumn": 117,
+                    "endOffset": 11773
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-appinvite\\9.2.0\\res\\values-v11\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 220,
+                        "endColumn": 117,
+                        "endOffset": 333
+                    }
+                }
             }
         ]
     }

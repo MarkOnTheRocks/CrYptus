@@ -24,12 +24,20 @@
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\layout\\cast_tracks_chooser_dialog_row_layout.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -108,6 +116,10 @@
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
     },
@@ -152,12 +164,20 @@
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\src\\main\\res\\layout\\activity_credits.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_help_text.xml",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\layout\\cast_help_text.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.0\\res\\layout\\place_autocomplete_progress.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
@@ -170,6 +190,22 @@
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_mini_controller.xml",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\layout\\cast_mini_controller.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_intro_overlay.xml",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\layout\\cast_intro_overlay.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\layout\\cast_tracks_chooser_dialog_layout.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
@@ -234,6 +270,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_showpassword.xml",

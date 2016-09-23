@@ -1,7 +1,11 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png"
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_skip_previous_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_skip_previous_white_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_replay_10_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_replay_10_white_24.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_blue.png",
@@ -12,32 +16,20 @@
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png"
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_cast_connected_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_cast_connected_white_24.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png"
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\places_ic_search.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.0\\res\\drawable-hdpi-v4\\places_ic_search.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_white.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\messenger_bubble_large_white.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png"
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_pause_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_pause_white_24.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png",
@@ -48,8 +40,240 @@
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_button_icon_white.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_cast_white_36.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_cast_white_36.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_forward_30_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_forward_30_white_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\9.2.0\\res\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_play_arrow_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_play_arrow_white_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_on.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.0\\res\\drawable-hdpi-v4\\cast_ic_notification_on.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\9.2.0\\res\\drawable-hdpi-v4\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_replay_30_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_replay_30_white_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_white.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_pause_grey600_48.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_pause_grey600_48.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_play_arrow_grey600_48.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_play_arrow_grey600_48.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_favicon_white.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_favicon_white.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_forward_10_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_forward_10_white_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_1.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.0\\res\\drawable-hdpi-v4\\cast_ic_notification_1.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_refresh_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_refresh_white_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_2.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.0\\res\\drawable-hdpi-v4\\cast_ic_notification_2.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_clear_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_clear_white_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_replay_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_replay_white_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png",
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_stop_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_stop_white_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\9.2.0\\res\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\9.2.0\\res\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_0.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.0\\res\\drawable-hdpi-v4\\cast_ic_notification_0.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_skip_next_white_24.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_skip_next_white_24.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_close.png",
@@ -60,23 +284,51 @@
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_white.png",
         "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\messenger_bubble_small_white.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_favicon_white.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_favicon_white.png"
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png"
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\places_ic_clear.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.0\\res\\drawable-hdpi-v4\\places_ic_clear.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_blue.png",
-        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-hdpi-v4\\messenger_bubble_small_blue.png"
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_stop_grey600_48.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\drawable-hdpi-v4\\quantum_ic_stop_grey600_48.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_dark.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.0\\res\\drawable-hdpi-v4\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_light.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.0\\res\\drawable-hdpi-v4\\powered_by_google_light.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
     }
 ]

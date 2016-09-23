@@ -6,9 +6,9 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 55,
+                    "startOffset": 105,
                     "endColumn": 102,
-                    "endOffset": 153
+                    "endOffset": 203
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -25,9 +25,9 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 158,
+                    "startOffset": 208,
                     "endColumn": 107,
-                    "endOffset": 261
+                    "endOffset": 311
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -44,9 +44,9 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 266,
+                    "startOffset": 316,
                     "endColumn": 122,
-                    "endOffset": 384
+                    "endOffset": 434
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -63,9 +63,9 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 389,
+                    "startOffset": 439,
                     "endColumn": 98,
-                    "endOffset": 483
+                    "endOffset": 533
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -82,9 +82,9 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 488,
+                    "startOffset": 538,
                     "endColumn": 111,
-                    "endOffset": 595
+                    "endOffset": 645
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -101,9 +101,9 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 600,
+                    "startOffset": 650,
                     "endColumn": 82,
-                    "endOffset": 678
+                    "endOffset": 728
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -120,9 +120,9 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 683,
+                    "startOffset": 733,
                     "endColumn": 99,
-                    "endOffset": 778
+                    "endOffset": 828
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -139,9 +139,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 783,
+                    "startOffset": 833,
                     "endColumn": 112,
-                    "endOffset": 891
+                    "endOffset": 941
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -158,9 +158,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 896,
+                    "startOffset": 946,
                     "endColumn": 76,
-                    "endOffset": 968
+                    "endOffset": 1018
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -177,9 +177,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 973,
+                    "startOffset": 1023,
                     "endColumn": 76,
-                    "endOffset": 1045
+                    "endOffset": 1095
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -196,9 +196,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1050,
+                    "startOffset": 1100,
                     "endColumn": 78,
-                    "endOffset": 1124
+                    "endOffset": 1174
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -215,9 +215,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1129,
+                    "startOffset": 1179,
                     "endColumn": 108,
-                    "endOffset": 1233
+                    "endOffset": 1283
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -234,9 +234,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1238,
+                    "startOffset": 1288,
                     "endColumn": 107,
-                    "endOffset": 1341
+                    "endOffset": 1391
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -253,9 +253,9 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1346,
+                    "startOffset": 1396,
                     "endColumn": 95,
-                    "endOffset": 1437
+                    "endOffset": 1487
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -272,9 +272,9 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1442,
+                    "startOffset": 1492,
                     "endColumn": 113,
-                    "endOffset": 1551
+                    "endOffset": 1601
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -291,9 +291,9 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1556,
+                    "startOffset": 1606,
                     "endColumn": 101,
-                    "endOffset": 1653
+                    "endOffset": 1703
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -310,9 +310,9 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1658,
+                    "startOffset": 1708,
                     "endColumn": 100,
-                    "endOffset": 1754
+                    "endOffset": 1804
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -329,9 +329,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1759,
+                    "startOffset": 1809,
                     "endColumn": 115,
-                    "endOffset": 1870
+                    "endOffset": 1920
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -348,9 +348,9 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1875,
+                    "startOffset": 1925,
                     "endColumn": 96,
-                    "endOffset": 1967
+                    "endOffset": 2017
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -367,9 +367,560 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1972,
+                    "startOffset": 2022,
+                    "endColumn": 73,
+                    "endOffset": 2091
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 73,
+                        "endOffset": 349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2096,
+                    "endColumn": 95,
+                    "endOffset": 2187
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 294,
+                        "endColumn": 95,
+                        "endOffset": 385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2192,
+                    "endColumn": 80,
+                    "endOffset": 2268
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 390,
+                        "endColumn": 80,
+                        "endOffset": 466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2273,
+                    "endColumn": 80,
+                    "endOffset": 2349
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 471,
+                        "endColumn": 80,
+                        "endOffset": 547
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2354,
+                    "endColumn": 95,
+                    "endOffset": 2445
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 552,
+                        "endColumn": 95,
+                        "endOffset": 643
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2450,
+                    "endColumn": 95,
+                    "endOffset": 2541
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 648,
+                        "endColumn": 95,
+                        "endOffset": 739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2546,
+                    "endColumn": 107,
+                    "endOffset": 2649
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 744,
+                        "endColumn": 107,
+                        "endOffset": 847
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2654,
+                    "endColumn": 81,
+                    "endOffset": 2731
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 852,
+                        "endColumn": 81,
+                        "endOffset": 929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2736,
+                    "endColumn": 137,
+                    "endOffset": 2869
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 334,
+                        "endColumn": 137,
+                        "endOffset": 467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2874,
+                    "endColumn": 153,
+                    "endOffset": 3023
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 472,
+                        "endColumn": 153,
+                        "endOffset": 621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3028,
+                    "endColumn": 93,
+                    "endOffset": 3117
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 626,
+                        "endColumn": 93,
+                        "endOffset": 715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3122,
+                    "endColumn": 81,
+                    "endOffset": 3199
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 934,
+                        "endColumn": 81,
+                        "endOffset": 1011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3204,
+                    "endColumn": 74,
+                    "endOffset": 3274
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1016,
+                        "endColumn": 74,
+                        "endOffset": 1086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3279,
+                    "endColumn": 82,
+                    "endOffset": 3357
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1091,
+                        "endColumn": 82,
+                        "endOffset": 1169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3362,
+                    "endColumn": 97,
+                    "endOffset": 3455
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1174,
+                        "endColumn": 97,
+                        "endOffset": 1267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3460,
+                    "endColumn": 97,
+                    "endOffset": 3553
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1272,
+                        "endColumn": 97,
+                        "endOffset": 1365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3558,
+                    "endColumn": 95,
+                    "endOffset": 3649
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1370,
+                        "endColumn": 95,
+                        "endOffset": 1461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3654,
+                    "endColumn": 97,
+                    "endOffset": 3747
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1466,
+                        "endColumn": 97,
+                        "endOffset": 1559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3752,
+                    "endColumn": 72,
+                    "endOffset": 3820
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1564,
+                        "endColumn": 72,
+                        "endOffset": 1632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3825,
+                    "endColumn": 95,
+                    "endOffset": 3916
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1637,
+                        "endColumn": 95,
+                        "endOffset": 1728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3921,
+                    "endColumn": 94,
+                    "endOffset": 4011
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1733,
+                        "endColumn": 94,
+                        "endOffset": 1823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4016,
+                    "endColumn": 100,
+                    "endOffset": 4112
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1828,
+                        "endColumn": 100,
+                        "endOffset": 1924
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4117,
+                    "endColumn": 139,
+                    "endOffset": 4252
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1929,
+                        "endColumn": 139,
+                        "endOffset": 2064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4257,
+                    "endColumn": 140,
+                    "endOffset": 4393
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2069,
+                        "endColumn": 140,
+                        "endOffset": 2205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4398,
+                    "endColumn": 135,
+                    "endOffset": 4529
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2210,
+                        "endColumn": 135,
+                        "endOffset": 2341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4534,
+                    "endColumn": 95,
+                    "endOffset": 4625
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2346,
+                        "endColumn": 95,
+                        "endOffset": 2437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4630,
+                    "endColumn": 90,
+                    "endOffset": 4716
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2442,
+                        "endColumn": 90,
+                        "endOffset": 2528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4721,
+                    "endColumn": 107,
+                    "endOffset": 4824
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2533,
+                        "endColumn": 107,
+                        "endOffset": 2636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4829,
+                    "endColumn": 83,
+                    "endOffset": 4908
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2641,
+                        "endColumn": 83,
+                        "endOffset": 2720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 4913,
                     "endColumn": 162,
-                    "endOffset": 2130
+                    "endOffset": 5071
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -384,11 +935,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 2135,
+                    "startOffset": 5076,
                     "endColumn": 126,
-                    "endOffset": 2257
+                    "endOffset": 5198
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -403,11 +954,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 2262,
+                    "startOffset": 5203,
                     "endColumn": 119,
-                    "endOffset": 2377
+                    "endOffset": 5318
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -422,11 +973,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 2382,
+                    "startOffset": 5323,
                     "endColumn": 111,
-                    "endOffset": 2489
+                    "endOffset": 5430
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -441,11 +992,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 2494,
+                    "startOffset": 5435,
                     "endColumn": 72,
-                    "endOffset": 2562
+                    "endOffset": 5503
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -460,11 +1011,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 2567,
+                    "startOffset": 5508,
                     "endColumn": 76,
-                    "endOffset": 2639
+                    "endOffset": 5580
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -479,11 +1030,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 2644,
+                    "startOffset": 5585,
                     "endColumn": 61,
-                    "endOffset": 2701
+                    "endOffset": 5642
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -498,11 +1049,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 2706,
+                    "startOffset": 5647,
                     "endColumn": 73,
-                    "endOffset": 2775
+                    "endOffset": 5716
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -517,11 +1068,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 2780,
+                    "startOffset": 5721,
                     "endColumn": 71,
-                    "endOffset": 2847
+                    "endOffset": 5788
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -536,11 +1087,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 2852,
+                    "startOffset": 5793,
                     "endColumn": 89,
-                    "endOffset": 2937
+                    "endOffset": 5878
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -555,11 +1106,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 2942,
+                    "startOffset": 5883,
                     "endColumn": 72,
-                    "endOffset": 3010
+                    "endOffset": 5951
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -574,11 +1125,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 3015,
+                    "startOffset": 5956,
                     "endColumn": 72,
-                    "endOffset": 3083
+                    "endOffset": 6024
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -593,11 +1144,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 3088,
+                    "startOffset": 6029,
                     "endColumn": 83,
-                    "endOffset": 3167
+                    "endOffset": 6108
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -612,11 +1163,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 3172,
+                    "startOffset": 6113,
                     "endColumn": 98,
-                    "endOffset": 3266
+                    "endOffset": 6207
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -631,11 +1182,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 3271,
+                    "startOffset": 6212,
                     "endColumn": 62,
-                    "endOffset": 3329
+                    "endOffset": 6270
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -650,11 +1201,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 3334,
+                    "startOffset": 6275,
                     "endColumn": 62,
-                    "endOffset": 3392
+                    "endOffset": 6333
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -669,11 +1220,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 3397,
+                    "startOffset": 6338,
                     "endColumn": 129,
-                    "endOffset": 3522
+                    "endOffset": 6463
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -688,11 +1239,657 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 3527,
+                    "startOffset": 6468,
+                    "endColumn": 264,
+                    "endOffset": 6728
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 264,
+                        "endOffset": 589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 6733,
+                    "endColumn": 129,
+                    "endOffset": 6858
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 594,
+                        "endColumn": 129,
+                        "endOffset": 719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 6863,
+                    "endColumn": 191,
+                    "endOffset": 7050
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 724,
+                        "endColumn": 191,
+                        "endOffset": 911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 7055,
+                    "endColumn": 128,
+                    "endOffset": 7179
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 916,
+                        "endColumn": 128,
+                        "endOffset": 1040
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 7184,
+                    "endColumn": 127,
+                    "endOffset": 7307
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1045,
+                        "endColumn": 127,
+                        "endOffset": 1168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 7312,
+                    "endColumn": 212,
+                    "endOffset": 7520
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1173,
+                        "endColumn": 212,
+                        "endOffset": 1381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 7525,
+                    "endColumn": 212,
+                    "endOffset": 7733
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1386,
+                        "endColumn": 212,
+                        "endOffset": 1594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 7738,
+                    "endColumn": 126,
+                    "endOffset": 7860
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1599,
+                        "endColumn": 126,
+                        "endOffset": 1721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 7865,
+                    "endColumn": 172,
+                    "endOffset": 8033
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1726,
+                        "endColumn": 172,
+                        "endOffset": 1894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 8038,
+                    "endColumn": 121,
+                    "endOffset": 8155
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1899,
+                        "endColumn": 121,
+                        "endOffset": 2016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 8160,
+                    "endColumn": 188,
+                    "endOffset": 8344
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2021,
+                        "endColumn": 188,
+                        "endOffset": 2205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 8349,
+                    "endColumn": 118,
+                    "endOffset": 8463
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2210,
+                        "endColumn": 118,
+                        "endOffset": 2324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 8468,
+                    "endColumn": 133,
+                    "endOffset": 8597
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2329,
+                        "endColumn": 133,
+                        "endOffset": 2458
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 8602,
+                    "endColumn": 186,
+                    "endOffset": 8784
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2463,
+                        "endColumn": 186,
+                        "endOffset": 2645
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 8789,
+                    "endColumn": 152,
+                    "endOffset": 8937
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2650,
+                        "endColumn": 152,
+                        "endOffset": 2798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 8942,
+                    "endColumn": 166,
+                    "endOffset": 9104
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2803,
+                        "endColumn": 166,
+                        "endOffset": 2965
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 9109,
+                    "endColumn": 127,
+                    "endOffset": 9232
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2970,
+                        "endColumn": 127,
+                        "endOffset": 3093
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 9237,
+                    "endColumn": 175,
+                    "endOffset": 9408
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3098,
+                        "endColumn": 175,
+                        "endOffset": 3269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 9413,
+                    "endColumn": 124,
+                    "endOffset": 9533
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3274,
+                        "endColumn": 124,
+                        "endOffset": 3394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 9538,
+                    "endColumn": 245,
+                    "endOffset": 9779
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 245,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 9784,
+                    "endColumn": 247,
+                    "endOffset": 10027
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3399,
+                        "endColumn": 247,
+                        "endOffset": 3642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 10032,
+                    "endColumn": 124,
+                    "endOffset": 10152
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3647,
+                        "endColumn": 124,
+                        "endOffset": 3767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 10157,
+                    "endColumn": 107,
+                    "endOffset": 10260
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3772,
+                        "endColumn": 107,
+                        "endOffset": 3875
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 10265,
+                    "endColumn": 192,
+                    "endOffset": 10453
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3880,
+                        "endColumn": 192,
+                        "endOffset": 4068
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 10458,
+                    "endColumn": 128,
+                    "endOffset": 10582
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 4073,
+                        "endColumn": 128,
+                        "endOffset": 4197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 10587,
+                    "endColumn": 203,
+                    "endOffset": 10786
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 4202,
+                        "endColumn": 203,
+                        "endOffset": 4401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 10791,
+                    "endColumn": 132,
+                    "endOffset": 10919
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 4406,
+                        "endColumn": 132,
+                        "endOffset": 4534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 10924,
+                    "endColumn": 207,
+                    "endOffset": 11127
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 4539,
+                        "endColumn": 207,
+                        "endOffset": 4742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 11132,
+                    "endColumn": 95,
+                    "endOffset": 11223
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 4747,
+                        "endColumn": 95,
+                        "endOffset": 4838
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 11228,
+                    "endColumn": 91,
+                    "endOffset": 11315
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 4843,
+                        "endColumn": 91,
+                        "endOffset": 4930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 11320,
+                    "endColumn": 106,
+                    "endOffset": 11422
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 4935,
+                        "endColumn": 106,
+                        "endOffset": 5037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 11427,
+                    "endColumn": 143,
+                    "endOffset": 11566
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endColumn": 143,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 11571,
+                    "endColumn": 104,
+                    "endOffset": 11671
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 104,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 11676,
+                    "endColumn": 71,
+                    "endOffset": 11743
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 603,
+                        "endColumn": 71,
+                        "endOffset": 670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 11748,
                     "endColumn": 59,
-                    "endOffset": 3582
+                    "endOffset": 11803
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values-da\\values-da.xml",
@@ -707,11 +1904,258 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 3587,
+                    "startOffset": 11808,
+                    "endColumn": 104,
+                    "endOffset": 11908
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 278,
+                        "endColumn": 104,
+                        "endOffset": 378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 11913,
+                    "endColumn": 113,
+                    "endOffset": 12022
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 383,
+                        "endColumn": 113,
+                        "endOffset": 492
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 12027,
+                    "endColumn": 116,
+                    "endOffset": 12139
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 497,
+                        "endColumn": 116,
+                        "endOffset": 609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 12144,
+                    "endColumn": 113,
+                    "endOffset": 12253
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 614,
+                        "endColumn": 113,
+                        "endOffset": 723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 12258,
+                    "endColumn": 139,
+                    "endOffset": 12393
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 728,
+                        "endColumn": 139,
+                        "endOffset": 863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 12398,
+                    "endColumn": 102,
+                    "endOffset": 12496
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 868,
+                        "endColumn": 102,
+                        "endOffset": 966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 12501,
+                    "endColumn": 95,
+                    "endOffset": 12592
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 971,
+                        "endColumn": 95,
+                        "endOffset": 1062
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 12597,
+                    "endColumn": 121,
+                    "endOffset": 12714
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1067,
+                        "endColumn": 121,
+                        "endOffset": 1184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 12719,
+                    "endColumn": 106,
+                    "endOffset": 12821
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1189,
+                        "endColumn": 106,
+                        "endOffset": 1291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 12826,
+                    "endColumn": 85,
+                    "endOffset": 12907
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1296,
+                        "endColumn": 85,
+                        "endOffset": 1377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 12912,
+                    "endColumn": 93,
+                    "endOffset": 13001
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\values-da\\values-da.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1382,
+                        "endColumn": 93,
+                        "endOffset": 1471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 13006,
+                    "endColumn": 101,
+                    "endOffset": 13103
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 101,
+                        "endOffset": 378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 13108,
+                    "endColumn": 92,
+                    "endOffset": 13196
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 383,
+                        "endColumn": 92,
+                        "endOffset": 471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 13201,
                     "endColumn": 100,
-                    "endOffset": 3683
+                    "endOffset": 13297
                 },
                 "from": {
                     "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-da\\values-da.xml",
@@ -721,6 +2165,63 @@
                         "startOffset": 2146,
                         "endColumn": 100,
                         "endOffset": 2242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 13302,
+                    "endColumn": 136,
+                    "endOffset": 13434
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 675,
+                        "endColumn": 136,
+                        "endOffset": 807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 13439,
+                    "endColumn": 90,
+                    "endOffset": 13525
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 812,
+                        "endColumn": 90,
+                        "endOffset": 898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 13530,
+                    "endColumn": 102,
+                    "endOffset": 13628
+                },
+                "from": {
+                    "file": "D:\\AndroidStudioProjects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\9.2.0\\res\\values-da\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 102,
+                        "endOffset": 386
                     }
                 }
             }
