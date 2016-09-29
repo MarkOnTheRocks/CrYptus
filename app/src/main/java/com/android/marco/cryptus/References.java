@@ -1,6 +1,12 @@
 package com.android.marco.cryptus;
 
+import android.content.Intent;
+import android.location.LocationManager;
+import android.provider.Settings;
+
 import java.util.Date;
+
+import static android.content.Context.LOCATION_SERVICE;
 
 /**
  * Created by Marco Mancuso on 13/06/2016.

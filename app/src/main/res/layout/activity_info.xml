@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Here are some infos about this app. First of all I want to say thank you for having downloaded it. Then I'm gonna explain some embedded features: this app uses the most known and used and appreciated algorithm for cryptography. In fact SHA1, SHA256 and all the others are some of the most efficient and reliable cryptographic hash functions. In particular this app encodes a sequence of charcters semi-randomly generated and then encodes it through these algorithms. The 'On-fly' section instead ask you to give to the app a seed that it then computes with the selected algorithm The 'let me do this for you' option uses another technique especially provided by the author of this app that, among the others available information about the user, takes advantage also of the GPS module of your device retrieving the current at the moment of the request."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textViewInstr"
+        android:layout_below="@+id/textViewTitleInfos"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:text="Some infos about CrYptus:"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitleInfos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

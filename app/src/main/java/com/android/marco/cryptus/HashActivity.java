@@ -6,10 +6,12 @@ package com.android.marco.cryptus;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
@@ -37,7 +39,12 @@ public class HashActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
+
         setContentView(R.layout.soap);
+        getWindow().setAllowEnterTransitionOverlap(false);
         bt = (Button) findViewById(R.id.bt);
         input = (EditText) findViewById(R.id.cel);
         input.setText("Give me a seed");
@@ -167,7 +174,7 @@ public class HashActivity extends Activity {
                 textView.setText(res.toString());
             }
             else {
-                Toast.makeText(HashActivity.this, "Qualcosa è andato male, controlla la tua connessione", Toast.LENGTH_LONG).show();
+                Toast.makeText(HashActivity.this, "Something went wrong, check your connection", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -187,8 +194,8 @@ public class HashActivity extends Activity {
             HttpTransportSE transport = new HttpTransportSE(URL);
             transport.call(SOAP_ACTION, soapEnvelope);
             res = (SoapPrimitive) soapEnvelope.getResponse();
-            System.out.println(res.toString());
-            System.out.println("Ho chiesto la risposta");
+            //System.out.println(res.toString());
+            //System.out.println("Ho chiesto la risposta");
             //System.out.println(resultString.toString());
             Log.i(TAG, "Result Celsius: " + res);
             View view = this.getCurrentFocus();
@@ -200,6 +207,12 @@ public class HashActivity extends Activity {
         catch (Exception ex) {
             Log.e(TAG, "Error: " + ex.getMessage());
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(this, PrincipalActivity.class);
+        startActivity(i);
     }
 
 }

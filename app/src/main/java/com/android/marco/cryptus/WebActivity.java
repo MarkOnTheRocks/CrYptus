@@ -2,6 +2,7 @@ package com.android.marco.cryptus;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -22,6 +23,11 @@ public class WebActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
+
+        getWindow().setAllowEnterTransitionOverlap(false);
         setContentView(R.layout.activity_web);
         mwebview = (WebView) findViewById(R.id.webview);
         WebSettings webSettings = mwebview.getSettings();
@@ -45,6 +51,12 @@ public class WebActivity extends Activity {
         }
         // Log.d ("1", Boolean.toString(value) );
         return value;
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(this, PrincipalActivity.class);
+        startActivity(i);
     }
 
 }

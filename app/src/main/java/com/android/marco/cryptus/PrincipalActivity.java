@@ -6,10 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.transition.Explode;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -102,10 +104,12 @@ public class PrincipalActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
+
         setContentView(R.layout.activity_principal);
-        //ActionBar actionBar = getActionBar();
-        //actionBar.setBackgroundDrawable(new ColorDrawable(Color.));
-        //actionBar.show();
+        getWindow().setAllowEnterTransitionOverlap(false);
         mTextViewP = (TextView) findViewById(R.id.userName);
         mTextViewP.setText(LoginActivity.nome);
         mTextViewEM = (TextView) findViewById(R.id.desc);
@@ -116,15 +120,12 @@ public class PrincipalActivity extends Activity {
         StringBuffer s = new StringBuffer("<--  ");
         s.append(instr.getText().toString());
         instr.setText(s);
-        //Picasso.with(this).load(R.).into(principal);
         Picasso.with(this).load(LoginActivity.profileImage).into(mImageView);
-
-        //mImageView.setImageURI(LoginActivity.profileImage);
         mNavItems.add(new NavItem("Password Center", "Create, browse and delete your passwords", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("On-fly", "Generate one-shot password", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Strongness", "Check the strongness of your password", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Crack Station", "Has your password already been cracked? Take a look here", R.drawable.ic_launcher_off));
-        //mNavItems.add(new NavItem("Save in the cloud", "Save all your passwords in your Dropbox folder", R.drawable.ic_launcher_off));
+        mNavItems.add(new NavItem("Info", "Get some infos about the app", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Credits", "Get to know about me", R.drawable.ic_launcher_off));
 
         // DrawerLayout
@@ -143,48 +144,53 @@ public class PrincipalActivity extends Activity {
             }
 
             private void selectItemFromDrawer(int position) {
+                final Explode explode;
+                //mDrawerLayout.closeDrawer(mDrawerPane);
+                explode = new Explode();
+                getWindow().setExitTransition(explode);
                 switch(position) {
                     case 0:
                         Intent myIntent0 = new Intent(PrincipalActivity.this, DbActivity.class);
                         startActivity(myIntent0);
-                        // Close the drawer
-                        mDrawerLayout.closeDrawer(mDrawerPane);
+                        finish();
                         break;
                     case 1:
                         Intent myIntent1 = new Intent(PrincipalActivity.this, HashActivity.class);
                         startActivity(myIntent1);
-                        // Close the drawer
-                        mDrawerLayout.closeDrawer(mDrawerPane);
+                        finish();
                         break;
                     case 2:
                         Intent myIntent2 = new Intent(PrincipalActivity.this, CheckStrongnessActivity.class);
                         startActivity(myIntent2);
-                        // Close the drawer
-                        mDrawerLayout.closeDrawer(mDrawerPane);
+                        finish();
                         break;
                     case 3:
                         Intent myIntent3 = new Intent(PrincipalActivity.this, WebActivity.class);
                         startActivity(myIntent3);
-                        // Close the drawer
-                        mDrawerLayout.closeDrawer(mDrawerPane);
+                        finish();
                         break;
-                    /*case 4:
-                        Intent myIntent4 = new Intent(PrincipalActivity.this, DBoxLoginActivity.class);
-                        startActivity(myIntent4);
-                        // Close the drawer
-                        mDrawerLayout.closeDrawer(mDrawerPane);
-                        break;
-                        */
                     case 4:
+                        Intent myIntent4 = new Intent(PrincipalActivity.this, InfoActivity.class);
+                        startActivity(myIntent4);
+                        finish();
+                        break;
+
+                    case 5:
                         Intent myIntent5 = new Intent(PrincipalActivity.this, CreditsActivity.class);
                         startActivity(myIntent5);
-                        // Close the drawer
-                        mDrawerLayout.closeDrawer(mDrawerPane);
+                        finish();
                         break;
                 }
 
             }
         });
+    }
+
+    @Override
+    protected void onRestart() {
+        // TODO Auto-generated method stub
+        super.onRestart();
+        mDrawerLayout.closeDrawer(mDrawerPane);
     }
 
 

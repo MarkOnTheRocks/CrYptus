@@ -33,11 +33,6 @@
 
     </RelativeLayout>
 
-
-
-
-
-
     <!-- The navigation drawer -->
     <RelativeLayout
         android:layout_width="280dp"

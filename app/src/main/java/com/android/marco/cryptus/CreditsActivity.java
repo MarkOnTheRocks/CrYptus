@@ -8,6 +8,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 
 /**
@@ -21,6 +22,10 @@ public class CreditsActivity extends Activity {
     @Override
     public void onCreate(Bundle onSavedInstance) {
         super.onCreate(onSavedInstance);
+        getWindow().setFlags(
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
+
         setContentView(R.layout.activity_credits);
         b1 = (Button) findViewById(R.id.button);
         b2 = (Button) findViewById(R.id.button2);
@@ -53,6 +58,12 @@ public class CreditsActivity extends Activity {
             return new Intent(Intent.ACTION_VIEW,
                     Uri.parse("https://www.facebook.com/marco.mancuso.2092")); //catches and opens a url to the desired page
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(this, PrincipalActivity.class);
+        startActivity(i);
     }
 
 

@@ -51,6 +51,8 @@ import java.net.URL;
 import java.util.Arrays;
 import java.util.Enumeration;
 
+import static android.webkit.ConsoleMessage.MessageLevel.LOG;
+
 /**
  * Created by Marco on 19/02/2016.
  */
@@ -88,12 +90,14 @@ public class LoginActivity extends FragmentActivity {
                         if (response != null) {
                             try {
                                 String mFbid = object.getString("id");
-                                System.out.println("id: " + mFbid);
+                                //System.out.println("id: " + mFbid);
                                 String mFullname = object.getString("name");
-                                System.out.println("nome completo: " + mFullname);
+                                //System.out.println("nome completo: " + mFullname);
+                                Log.i("nome completo", mFullname);
                                 email = object.getString("email");
-                                System.out.println("Ecco la mail da fb " + email);
-                                System.out.println(References.getDate());
+                                //System.out.println("Ecco la mail da fb " + email);
+                                Log.i("Ecco la mail da fb", email);
+                                //System.out.println(References.getDate());
 
                             }
                             catch (JSONException e) {
@@ -149,7 +153,11 @@ public class LoginActivity extends FragmentActivity {
             protected void onCurrentProfileChanged(Profile oldProfile, Profile currentProfile) {
                 if (currentProfile != null) {
                     nome = currentProfile.getName();
+                    References.name = nome;
+                    System.out.println("Da references: " + References.name);
                     id = currentProfile.getId();
+                    References.id = id;
+                    System.out.println("Da references: " + References.id);
                     profileImage = currentProfile.getProfilePictureUri(50, 50);
                     System.out.println(profileImage);
                     info.setText("Successful login as: " + nome);
@@ -183,14 +191,11 @@ public class LoginActivity extends FragmentActivity {
 
 
 
-    /*@Override
+    @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        if(!profileTracker.equals(null)) {
-            profileTracker.stopTracking();
-        }
+        moveTaskToBack(true);
     }
-    */
+
 }
 
 

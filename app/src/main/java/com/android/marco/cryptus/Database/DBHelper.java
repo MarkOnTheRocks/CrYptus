@@ -122,8 +122,8 @@ public class DBHelper extends SQLiteOpenHelper {
             //db.execSQL("select id from registry where REGISTRY_COLUMN_SITE = " + array_list.size());
             res.moveToNext();
         }
-        System.out.println(array_list);
-        System.out.println(db.toString());
+        //System.out.println(array_list);
+        //System.out.println(db.toString());
         return array_list;
     }
 

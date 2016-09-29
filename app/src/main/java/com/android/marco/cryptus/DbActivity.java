@@ -12,6 +12,7 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AdapterView.OnItemClickListener;
@@ -28,11 +29,16 @@ public class DbActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
+
         setContentView(R.layout.activity_db);
-        System.out.println("Sono in attività DbActivity");
+        getWindow().setAllowEnterTransitionOverlap(false);
+        //System.out.println("Sono in attività DbActivity");
         mydb = new DBHelper(this);
         ArrayList array_list = mydb.getAllPasswords();
-        System.out.println("Numero di passwords: " + array_list.size());
+        //System.out.println("Numero di passwords: " + array_list.size());
         final ArrayList<String> temp = new ArrayList();
         temp.addAll(array_list);
         ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1, array_list);
@@ -44,8 +50,8 @@ public class DbActivity extends AppCompatActivity {
                 // TODO Auto-generated method stub
                 int id_To_Search = arg2+1;
                 String site = temp.get(arg2);
-                System.out.println(site);
-                System.out.println("il valore di idtos è: " + id_To_Search);
+                //System.out.println(site);
+                //System.out.println("il valore di idtos è: " + id_To_Search);
                 Bundle dataBundle = new Bundle();
                 dataBundle.putInt("id", id_To_Search);
                 dataBundle.putString("site", site);

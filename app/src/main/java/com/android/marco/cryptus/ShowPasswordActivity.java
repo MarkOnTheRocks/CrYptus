@@ -3,6 +3,12 @@ package com.android.marco.cryptus;
 /**
  * Created by marco on 18/08/2016.
  */
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -10,17 +16,29 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.provider.MediaStore;
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextWatcher;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.PopupWindow;
 import android.widget.RadioButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.android.marco.cryptus.Database.DBHelper;
+
+import org.ksoap2.SoapEnvelope;
+import org.ksoap2.serialization.SoapObject;
+import org.ksoap2.serialization.SoapPrimitive;
+import org.ksoap2.serialization.SoapSerializationEnvelope;
+import org.ksoap2.transport.HttpTransportSE;
 
 public class ShowPasswordActivity extends AppCompatActivity {
     int from_Where_I_Am_Coming = 0;
@@ -35,17 +53,32 @@ public class ShowPasswordActivity extends AppCompatActivity {
     int id_To_Update = 0;
     String sitetocheck;
     Button saver;
+    int Value;
     RadioButton[] arrrb;
     SeekBar skb;
-    //String methodname;
+    StringBuffer position = new StringBuffer("");
+    private SoapPrimitive res;
+    private String outofpass;
+    private String TAG = "Response";
+    private String input;
+    private String methodNamet;
+    PopupWindow fPopupWindowStates;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        System.out.println("Sono in attività ShowPasswordActivity");
+        //System.out.println("Sono in attività ShowPasswordActivity");
+        getWindow().setFlags(
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
+
+        getWindow().setAllowEnterTransitionOverlap(false);
         super.onCreate(savedInstanceState);
+        fPopupWindowStates = new PopupWindow();
         setContentView(R.layout.activity_showpassword);
         instr = (TextView) findViewById(R.id.textViewInstrSeek);
         skb = (SeekBar) findViewById(R.id.seekBar);
+        skb.setProgress(10);
+        skb.setMax(40);
         skb.computeScroll();
         site = (EditText) findViewById(R.id.editTextSite);
         email = (EditText) findViewById(R.id.editTextEmail);
@@ -93,13 +126,11 @@ public class ShowPasswordActivity extends AppCompatActivity {
                 // TODO Auto-generated method stub
             }
         });
-
-
         rb0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //this.methodname = rb0.getText().toString();
-                skb.setProgress(0);
+                skb.setProgress(10);
                 skb.setMax(40);
                 tpass.setVisibility(View.INVISIBLE);
                 password.setVisibility(View.INVISIBLE);
@@ -112,7 +143,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //methodname = rb7.getText().toString();
-                skb.setProgress(0);
+                skb.setProgress(10);
                 skb.setMax(64);
                 tpass.setVisibility(View.INVISIBLE);
                 password.setVisibility(View.INVISIBLE);
@@ -125,7 +156,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //methodname = rb8.getText().toString();
-                skb.setProgress(0);
+                skb.setProgress(10);
                 tpass.setVisibility(View.INVISIBLE);
                 password.setVisibility(View.INVISIBLE);
                 skb.setVisibility(View.VISIBLE);
@@ -138,7 +169,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //methodname = rb9.getText().toString();
-                skb.setProgress(0);
+                skb.setProgress(10);
                 skb.setMax(32);
                 tpass.setVisibility(View.INVISIBLE);
                 password.setVisibility(View.INVISIBLE);
@@ -151,7 +182,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //methodname = rb10.getText().toString();
-                skb.setProgress(0);
+                skb.setProgress(10);
                 skb.setMax(50);
                 tpass.setVisibility(View.INVISIBLE);
                 password.setVisibility(View.INVISIBLE);
@@ -163,7 +194,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
         rb11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                skb.setProgress(0);
+                skb.setProgress(10);
                 skb.setMax(34);
                 tpass.setVisibility(View.INVISIBLE);
                 password.setVisibility(View.INVISIBLE);
@@ -177,7 +208,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //methodname = rb12.getText().toString();
-                skb.setProgress(0);
+                skb.setProgress(10);
                 skb.setMax(50);
                 tpass.setVisibility(View.INVISIBLE);
                 password.setVisibility(View.INVISIBLE);
@@ -198,14 +229,13 @@ public class ShowPasswordActivity extends AppCompatActivity {
             }
         });
         mydb = new DBHelper(this);
-        System.out.println(mydb.numberOfRows());
+        //System.out.println(mydb.numberOfRows());
         String[] arr = new String[5];
         Bundle extras = getIntent().getExtras();
         if(extras !=null) {
             int Value = extras.getInt("id");
             sitetocheck = extras.getString("site");
-            System.out.println(sitetocheck);
-
+            //System.out.println(sitetocheck);
             if(Value>0){
                 Cursor rs = mydb.getDatafromSite(sitetocheck);
                 id_To_Update = Value;
@@ -233,8 +263,9 @@ public class ShowPasswordActivity extends AppCompatActivity {
                     this.email.setClickable(false);
                     this.password.setVisibility(View.VISIBLE);
                     this.password.setText((CharSequence) arr[2]);
-                    this.password.setFocusable(false);
-                    this.password.setClickable(false);
+                    this.password.setFocusable(true);
+                    this.password.setEnabled(true);
+                    this.password.setTextIsSelectable(true);
                     this.date.setText((CharSequence) arr[3]);
                     this.date.setFocusable(false);
                     this.date.setClickable(false);
@@ -252,12 +283,12 @@ public class ShowPasswordActivity extends AppCompatActivity {
                     this.rb13.setVisibility(View.INVISIBLE);
                     skb.setVisibility(View.INVISIBLE);
                     this.instr.setVisibility(View.INVISIBLE);
-
-
-
             }
         }
     }
+
+
+
 
     private String concatener(int number) {
         if(number>0) {
@@ -279,14 +310,15 @@ public class ShowPasswordActivity extends AppCompatActivity {
         }
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         Bundle extras = getIntent().getExtras();
 
         if(extras !=null) {
-            int Value = extras.getInt("id");
-            if(Value>0){
+            this.Value = extras.getInt("id");
+            if(this.Value>0){
                 getMenuInflater().inflate(R.menu.show_password, menu);
             }
 
@@ -302,6 +334,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
         switch(item.getItemId()) {
             case R.id.Edit_Password:
                 rb0.setChecked(true);
+                skb.setProgress(10);
                 skb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener(){
 
                     @Override
@@ -323,12 +356,11 @@ public class ShowPasswordActivity extends AppCompatActivity {
                         // TODO Auto-generated method stub
                     }
                 });
-
                 rb0.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         //this.methodname = rb0.getText().toString();
-                        skb.setProgress(0);
+                        skb.setProgress(10);
                         skb.setMax(40);
                         tpass.setVisibility(View.INVISIBLE);
                         password.setVisibility(View.INVISIBLE);
@@ -341,7 +373,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         //methodname = rb7.getText().toString();
-                        skb.setProgress(0);
+                        skb.setProgress(10);
                         skb.setMax(64);
                         tpass.setVisibility(View.INVISIBLE);
                         password.setVisibility(View.INVISIBLE);
@@ -354,7 +386,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         //methodname = rb8.getText().toString();
-                        skb.setProgress(0);
+                        skb.setProgress(10);
                         tpass.setVisibility(View.INVISIBLE);
                         password.setVisibility(View.INVISIBLE);
                         skb.setVisibility(View.VISIBLE);
@@ -367,7 +399,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         //methodname = rb9.getText().toString();
-                        skb.setProgress(0);
+                        skb.setProgress(10);
                         skb.setMax(32);
                         tpass.setVisibility(View.INVISIBLE);
                         password.setVisibility(View.INVISIBLE);
@@ -380,7 +412,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         //methodname = rb10.getText().toString();
-                        skb.setProgress(0);
+                        skb.setProgress(10);
                         skb.setMax(50);
                         tpass.setVisibility(View.INVISIBLE);
                         password.setVisibility(View.INVISIBLE);
@@ -392,7 +424,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
                 rb11.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        skb.setProgress(0);
+                        skb.setProgress(10);
                         skb.setMax(34);
                         tpass.setVisibility(View.INVISIBLE);
                         password.setVisibility(View.INVISIBLE);
@@ -406,7 +438,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         //methodname = rb12.getText().toString();
-                        skb.setProgress(0);
+                        skb.setProgress(10);
                         skb.setMax(50);
                         tpass.setVisibility(View.INVISIBLE);
                         password.setVisibility(View.INVISIBLE);
@@ -419,6 +451,8 @@ public class ShowPasswordActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         //methodname = rb13.getText().toString();
+                        skb.setProgress(10);
+                        skb.setMax(50);
                         tpass.setVisibility(View.VISIBLE);
                         password.setVisibility(View.VISIBLE);
                         skb.setVisibility(View.INVISIBLE);
@@ -458,12 +492,12 @@ public class ShowPasswordActivity extends AppCompatActivity {
                 builder.setMessage(R.string.deletePassword).setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 Cursor c = mydb.getIDfromSite(sitetocheck);
-                                System.out.println(c.getColumnCount());
+                                //System.out.println(c.getColumnCount());
                                 int idtodelete = 0;
                                 while(c.moveToNext()) {
                                     idtodelete = Integer.parseInt(c.getString(0));
                                 }
-                                System.out.println("Id da eliminare: " + idtodelete);
+                                //System.out.println("Id da eliminare: " + idtodelete);
                                 mydb.deletePassword(idtodelete);
                                 Toast.makeText(getApplicationContext(), "Deleted Successfully", Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(getApplicationContext(),DbActivity.class);
@@ -485,6 +519,132 @@ public class ShowPasswordActivity extends AppCompatActivity {
         }
     }
 
+    /*@Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        mydb.close();
+    }
+    */
+
+    private class AsyncCallWSI extends AsyncTask<Void, Void, Void> {
+        private final ProgressDialog dialog = new ProgressDialog(ShowPasswordActivity.this);
+
+        @Override
+        protected void onPreExecute() {
+            Log.i(TAG, "onPreExecute");
+            this.dialog.setMessage("Processing...");
+            this.dialog.show();
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            Log.i(TAG, "doInBackground");
+            //getPostion();
+            calculate();
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            Log.i(TAG, "onPostExecute");
+            if (res != null) {
+                Toast.makeText(ShowPasswordActivity.this, "Response" + " " + res.toString(), Toast.LENGTH_LONG).show();
+                //textView.setText(res.toString());
+                StringBuffer s = new StringBuffer(res.toString().substring(0, skb.getProgress()));
+                if(Value>0){
+                    if(mydb.updatePassword(site.getText().toString(), methodNamet, email.getText().toString(), s.toString(), date.getText().toString())){
+                        Toast.makeText(getApplicationContext(), "Updated", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getApplicationContext(),DbActivity.class);
+                        startActivity(intent);
+                    }
+                    else{
+                        Toast.makeText(getApplicationContext(), "not Updated", Toast.LENGTH_SHORT).show();
+                    }
+                }
+                else {
+                    if(mydb.insertPassword(site.getText().toString(), methodNamet, email.getText().toString(), s.toString(), date.getText().toString())){
+                        Toast.makeText(getApplicationContext(), "done", Toast.LENGTH_SHORT).show();
+                    }
+                    else{
+                        Toast.makeText(getApplicationContext(), "not done", Toast.LENGTH_SHORT).show();
+                    }
+                    Intent intent = new Intent(getApplicationContext(),DbActivity.class);
+                    startActivity(intent);
+                }
+                dialog.dismiss();
+            }
+            else {
+                Toast.makeText(ShowPasswordActivity.this, "Qualcosa è andato male, controlla la tua connessione", Toast.LENGTH_LONG).show();
+                dialog.dismiss();
+            }
+        }
+    }
+
+    public void calculate() {
+        String SOAP_ACTION = References.address+"/CrYptusServer/CrYptusServer/SHA1";
+        String METHOD_NAME = this.methodNamet;
+        String NAMESPACE = "http://server/";
+        String URL = References.address+"/CrYptusServer/CrYptusServer?wsdl";
+
+        try {
+            SoapObject Request = new SoapObject(NAMESPACE, METHOD_NAME);
+            Request.addProperty("text", input);
+            SoapSerializationEnvelope soapEnvelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+            soapEnvelope.dotNet = false;
+            soapEnvelope.setOutputSoapObject(Request);
+            HttpTransportSE transport = new HttpTransportSE(URL);
+            transport.call(SOAP_ACTION, soapEnvelope);
+            this.res = (SoapPrimitive) soapEnvelope.getResponse();
+            this.outofpass = res.toString();
+            //System.out.println(res.toString());
+            //System.out.println("Ho chiesto la risposta");
+            //System.out.println(resultString.toString());
+            Log.i(TAG, "Result Password: " + res);
+            View view = this.getCurrentFocus();
+            if (view != null) {
+                InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+            }
+        }
+        catch (Exception ex) {
+            Log.e(TAG, "Error: " + ex.getMessage());
+        }
+    }
+
+    public static String randomGenerator() {
+        String s = References.getDate().toString();
+        String id = References.id;
+        String name = References.name;
+        int num = s.length() + id.length() + name.length();
+        char arr[] = new char[num];
+        for(int i = 0; i<s.length(); i++) {
+            arr[i] = s.charAt(i);
+        }
+        for(int i = s.length(); i<s.length() + id.length(); i++) {
+            arr[i] = id.charAt(i-s.length());
+        }
+        for(int i = s.length() + id.length(); i<s.length() + id.length() + name.length(); i++) {
+            arr[i] = name.charAt(i-s.length()-id.length());
+        }
+        char[] arrb = new char[arr.length];
+        for(int i = 0; i<arrb.length; i++) {
+            int k = (int)(Math.random()*Math.pow(10, 2));
+            k = (k%95)+32;
+            arrb[i] = (char)k;
+        }
+        StringBuffer res = new StringBuffer("");
+        for(int i = 0; i<arrb.length*2; i++) {
+            if(i%2==0) {
+                res.append(arr[i/2]);
+            }
+            else {
+                res.append(arrb[i/2]);
+            }
+        }
+        res.append(';');
+        return res.toString();
+    }
+
     public void run(View view) {
         Bundle extras = getIntent().getExtras();
         if(extras !=null) {
@@ -493,31 +653,51 @@ public class ShowPasswordActivity extends AppCompatActivity {
             for(int i = 0; i<8; i++) {
                 if(arrrb[i].isChecked()) {
                     algo = arrrb[i].getText().toString();
-                    System.out.println(algo);
+                    //System.out.println(algo);
                 }
             }
             if(algo.equals("")) {
                 return;
             }
-            if(Value>0){
-                if(mydb.updatePassword(site.getText().toString(), algo, email.getText().toString(), password.getText().toString(), date.getText().toString())){
-                    Toast.makeText(getApplicationContext(), "Updated", Toast.LENGTH_SHORT).show();
+            if(site.getText().toString().equals("")) {
+                Toast.makeText(getApplicationContext(), "Insert site", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if(rb13.isChecked() && password.getText().toString().equals("")) {
+                Toast.makeText(getApplicationContext(), "This option requires you to insert a password", Toast.LENGTH_LONG).show();
+                return;
+            }
+
+            if(rb13.isChecked()) {
+                if(Value>0){
+                    if(mydb.updatePassword(site.getText().toString(), rb13.getText().toString(), email.getText().toString(), password.getText().toString(), date.getText().toString())){
+                        Toast.makeText(getApplicationContext(), "Updated", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getApplicationContext(),DbActivity.class);
+                        startActivity(intent);
+                    }
+                    else{
+                        Toast.makeText(getApplicationContext(), "not Updated", Toast.LENGTH_SHORT).show();
+                    }
+                }
+                else {
+                    if(mydb.insertPassword(site.getText().toString(), rb13.getText().toString(), email.getText().toString(), password.getText().toString(), date.getText().toString())){
+                        Toast.makeText(getApplicationContext(), "done", Toast.LENGTH_SHORT).show();
+                    }
+                    else{
+                        Toast.makeText(getApplicationContext(), "not done", Toast.LENGTH_SHORT).show();
+                    }
                     Intent intent = new Intent(getApplicationContext(),DbActivity.class);
                     startActivity(intent);
                 }
-                else{
-                    Toast.makeText(getApplicationContext(), "not Updated", Toast.LENGTH_SHORT).show();
-                }
             }
-            else{
-                if(mydb.insertPassword(site.getText().toString(), algo, email.getText().toString(), password.getText().toString(), date.getText().toString())){
-                    Toast.makeText(getApplicationContext(), "done", Toast.LENGTH_SHORT).show();
+            else {
+                methodNamet = algo;
+                if(rb12.isChecked()) {
+                    methodNamet = "cryptus";
                 }
-                else{
-                    Toast.makeText(getApplicationContext(), "not done", Toast.LENGTH_SHORT).show();
-                }
-                Intent intent = new Intent(getApplicationContext(),DbActivity.class);
-                startActivity(intent);
+                input = randomGenerator();
+                AsyncCallWSI task = new AsyncCallWSI();
+                task.execute();
             }
         }
     }

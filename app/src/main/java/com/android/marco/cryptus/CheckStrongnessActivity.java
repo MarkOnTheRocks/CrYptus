@@ -2,6 +2,7 @@ package com.android.marco.cryptus;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -9,6 +10,7 @@ import android.text.InputType;
 import android.text.method.PasswordTransformationMethod;
 import android.view.Gravity;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CompoundButton;
@@ -24,7 +26,7 @@ import android.widget.ToggleButton;
  */
 public class CheckStrongnessActivity extends Activity {
 
-    public class MyPasswordTransformationMethod extends PasswordTransformationMethod {
+    /*public class MyPasswordTransformationMethod extends PasswordTransformationMethod {
 
         @Override
         public CharSequence getTransformation(CharSequence source, View view) {
@@ -32,7 +34,6 @@ public class CheckStrongnessActivity extends Activity {
         }
 
         private class PasswordCharSequence implements CharSequence {
-
             private CharSequence mSource;
 
             public PasswordCharSequence(CharSequence source) {
@@ -53,6 +54,7 @@ public class CheckStrongnessActivity extends Activity {
             }
         }
     };
+    */
 
     private TextView mtextView;
     private EditText editText;
@@ -65,9 +67,16 @@ public class CheckStrongnessActivity extends Activity {
     @Override
     public void onCreate (Bundle onSavedInstace) {
         super.onCreate(onSavedInstace);
+        getWindow().setFlags(
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
+
         setContentView(R.layout.activity_strongness);
         mtextView = (TextView) findViewById(R.id.textViewStr);
         editText = (EditText) findViewById(R.id.editText);
+        //editText.setFocusable(true);
+        editText.setText("");
+        editText.setFocusableInTouchMode(true);
         result = (TextView) findViewById(R.id.textresult);
         mbutton = (Button) findViewById(R.id.buttonch);
         mtextView.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
@@ -218,14 +227,15 @@ public class CheckStrongnessActivity extends Activity {
                 + ((length - lowercase) * 2) + (digits * 4) + (symbols * 8)
                 + (bonus * 2) + (requirements * 2) - (lettersonly * length*2)
                 - (numbersonly * length*3) - (uppercase * 2) - (lowercase * 2) + nsymbolsonly*2;
-        System.out.println(total);
+        //System.out.println(total);
 
         return total/40;
 
     }
 
-
-
-
-
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(this, PrincipalActivity.class);
+        startActivity(i);
+    }
 }
