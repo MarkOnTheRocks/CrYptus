@@ -116,7 +116,6 @@ public class DBHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor res =  db.rawQuery( "select * from registry", null );
         res.moveToFirst();
-
         while(res.isAfterLast() == false){
             array_list.add(res.getString(res.getColumnIndex(REGISTRY_COLUMN_SITE)));
             //db.execSQL("select id from registry where REGISTRY_COLUMN_SITE = " + array_list.size());
@@ -125,6 +124,44 @@ public class DBHelper extends SQLiteOpenHelper {
         //System.out.println(array_list);
         //System.out.println(db.toString());
         return array_list;
+    }
+
+    public String[] getPasswords() {
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res = db.rawQuery("select * from registry", null);
+        res.moveToFirst();
+        int c = 0;
+        while(res.isAfterLast() == false) {
+            //String a = res.getString(res.getColumnIndex(REGISTRY_COLUMN_SITE));
+            //String b = res.getString(res.getColumnIndex(REGISTRY_COLUMN_PASSWORD));
+            c+=1;
+        }
+        res = db.rawQuery("select * from registry", null);
+        res.moveToFirst();
+        String[] result = new String[c];
+        for(int i = 0; i<c && res.isAfterLast()==false; i++) {
+            String a = res.getString(res.getColumnIndex(REGISTRY_COLUMN_SITE));
+            String b = res.getString(res.getColumnIndex(REGISTRY_COLUMN_PASSWORD));
+            StringBuffer t = new StringBuffer("");
+            t.append(a);
+            t.append("::::");
+            t.append(b);
+            result[i] = t.toString();
+        }
+        return result;
+    }
+
+    public int numPasswords() {
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res = db.rawQuery("select * from registry", null);
+        res.moveToFirst();
+        int c = 0;
+        while(res.isAfterLast() == false) {
+            //String a = res.getString(res.getColumnIndex(REGISTRY_COLUMN_SITE));
+            //String b = res.getString(res.getColumnIndex(REGISTRY_COLUMN_PASSWORD));
+            c+=1;
+        }
+        return c;
     }
 
     public void closeDB() {

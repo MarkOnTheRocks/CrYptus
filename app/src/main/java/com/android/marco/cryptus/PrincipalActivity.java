@@ -3,6 +3,7 @@ package com.android.marco.cryptus;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -18,6 +19,10 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.android.marco.cryptus.Dropbox.LoginDBoxActivity;
+import com.android.marco.cryptus.Dropbox.MainDBoxActivity;
+import com.dropbox.core.android.Auth;
 import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
@@ -125,6 +130,7 @@ public class PrincipalActivity extends Activity {
         mNavItems.add(new NavItem("On-fly", "Generate one-shot password", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Strongness", "Check the strongness of your password", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Crack Station", "Has your password already been cracked? Take a look here", R.drawable.ic_launcher_off));
+        mNavItems.add(new NavItem("DropBox", "Upload your passwords to your DropBox account", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Info", "Get some infos about the app", R.drawable.ic_launcher_off));
         mNavItems.add(new NavItem("Credits", "Get to know about me", R.drawable.ic_launcher_off));
 
@@ -170,20 +176,44 @@ public class PrincipalActivity extends Activity {
                         finish();
                         break;
                     case 4:
-                        Intent myIntent4 = new Intent(PrincipalActivity.this, InfoActivity.class);
-                        startActivity(myIntent4);
+                        Auth.startOAuth2Authentication(getApplicationContext(), getString(R.string.APP_KEY));
+                        //finish();
+                        break;
+                    case 5:
+                        Intent myIntent5 = new Intent(PrincipalActivity.this, InfoActivity.class);
+                        startActivity(myIntent5);
                         finish();
                         break;
 
-                    case 5:
-                        Intent myIntent5 = new Intent(PrincipalActivity.this, CreditsActivity.class);
-                        startActivity(myIntent5);
+                    case 6:
+                        Intent myIntent6 = new Intent(PrincipalActivity.this, CreditsActivity.class);
+                        startActivity(myIntent6);
                         finish();
                         break;
                 }
 
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getAccessToken();
+    }
+
+    public void getAccessToken() {
+        String accessToken = Auth.getOAuth2Token(); //generate Access Token
+        //MainDBoxActivity.ACCESS_TOKEN = accessToken;
+        if (accessToken != null) {
+            //Store accessToken in SharedPreferences
+            SharedPreferences prefs = getSharedPreferences("com.android.marco.cryptus.Dropbox", Context.MODE_PRIVATE);
+            prefs.edit().putString("access-token", accessToken).apply();
+            System.out.println("Ho avuto accesso");
+            //Proceed to MainActivity
+            Intent intent = new Intent(PrincipalActivity.this, MainDBoxActivity.class);
+            startActivity(intent);
+        }
     }
 
     @Override

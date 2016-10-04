@@ -40,6 +40,8 @@ import org.ksoap2.serialization.SoapPrimitive;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
+import java.io.FileOutputStream;
+
 public class ShowPasswordActivity extends AppCompatActivity {
     int from_Where_I_Am_Coming = 0;
     private DBHelper mydb ;
@@ -554,6 +556,23 @@ public class ShowPasswordActivity extends AppCompatActivity {
                 if(Value>0){
                     if(mydb.updatePassword(site.getText().toString(), methodNamet, email.getText().toString(), s.toString(), date.getText().toString())){
                         Toast.makeText(getApplicationContext(), "Updated", Toast.LENGTH_SHORT).show();
+                        /*int num = mydb.numPasswords();
+                        if(num!= 0 && num%4==0) {
+                            String filename = "passwords.txt";
+                            String[] arr = mydb.getPasswords();
+                            FileOutputStream outputStream;
+                            for(int i = 0; i<arr.length; i++) {
+                                try {
+                                    outputStream = openFileOutput(filename, Context.MODE_PRIVATE);
+                                    outputStream.write(arr[i].getBytes());
+                                    outputStream.close();
+                                }
+                                catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        }
+                        */
                         Intent intent = new Intent(getApplicationContext(),DbActivity.class);
                         startActivity(intent);
                     }
@@ -564,6 +583,23 @@ public class ShowPasswordActivity extends AppCompatActivity {
                 else {
                     if(mydb.insertPassword(site.getText().toString(), methodNamet, email.getText().toString(), s.toString(), date.getText().toString())){
                         Toast.makeText(getApplicationContext(), "done", Toast.LENGTH_SHORT).show();
+                        /*int num = mydb.numPasswords();
+                        if(num!= 0 && num%4==0) {
+                            String filename = "passwords.txt";
+                            String[] arr = mydb.getPasswords();
+                            FileOutputStream outputStream;
+                            for(int i = 0; i<arr.length; i++) {
+                                try {
+                                    outputStream = openFileOutput(filename, Context.MODE_PRIVATE);
+                                    outputStream.write(arr[i].getBytes());
+                                    outputStream.close();
+                                }
+                                catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        }
+                        */
                     }
                     else{
                         Toast.makeText(getApplicationContext(), "not done", Toast.LENGTH_SHORT).show();
@@ -574,7 +610,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
                 dialog.dismiss();
             }
             else {
-                Toast.makeText(ShowPasswordActivity.this, "Qualcosa è andato male, controlla la tua connessione", Toast.LENGTH_LONG).show();
+                Toast.makeText(ShowPasswordActivity.this, "Something went wrong, check your connection", Toast.LENGTH_LONG).show();
                 dialog.dismiss();
             }
         }
@@ -673,6 +709,23 @@ public class ShowPasswordActivity extends AppCompatActivity {
                     if(mydb.updatePassword(site.getText().toString(), rb13.getText().toString(), email.getText().toString(), password.getText().toString(), date.getText().toString())){
                         Toast.makeText(getApplicationContext(), "Updated", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext(),DbActivity.class);
+                        /*int num = mydb.numPasswords();
+                        if(num!= 0 && num%4==0) {
+                            String filename = "passwords.txt";
+                            String[] arr = mydb.getPasswords();
+                            FileOutputStream outputStream;
+                            for(int i = 0; i<arr.length; i++) {
+                                try {
+                                    outputStream = openFileOutput(filename, Context.MODE_PRIVATE);
+                                    outputStream.write(arr[i].getBytes());
+                                    outputStream.close();
+                                }
+                                catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        }
+                        */
                         startActivity(intent);
                     }
                     else{
@@ -682,6 +735,23 @@ public class ShowPasswordActivity extends AppCompatActivity {
                 else {
                     if(mydb.insertPassword(site.getText().toString(), rb13.getText().toString(), email.getText().toString(), password.getText().toString(), date.getText().toString())){
                         Toast.makeText(getApplicationContext(), "done", Toast.LENGTH_SHORT).show();
+                        /*int num = mydb.numPasswords();
+                        if(num!= 0 && num%4==0) {
+                            String filename = "passwords.txt";
+                            String[] arr = mydb.getPasswords();
+                            FileOutputStream outputStream;
+                            for(int i = 0; i<arr.length; i++) {
+                                try {
+                                    outputStream = openFileOutput(filename, Context.MODE_PRIVATE);
+                                    outputStream.write(arr[i].getBytes());
+                                    outputStream.close();
+                                }
+                                catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        }
+                        */
                     }
                     else{
                         Toast.makeText(getApplicationContext(), "not done", Toast.LENGTH_SHORT).show();

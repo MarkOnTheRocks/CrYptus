@@ -550,7 +550,7 @@
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="google_play_services_version">9256000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <string name="APP_KEY">4fjxgh9xhxlweht</string>
+    <string name="APP_KEY">pjgclr0jfyogvcc</string>
     <string name="Add_New">Add New</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>

@@ -18,6 +18,7 @@ public class References {
     public static String name;
     public static String indirizzo;
     public static String IPaddr;
+    public static String email;
 
 
     public static StringBuffer getDate() {

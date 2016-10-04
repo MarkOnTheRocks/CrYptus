@@ -39,11 +39,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.7.1\8b93f301823b79033fcbe873779b3d84f9730fc1\jackson-annotations-2.7.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8b93f301823b79033fcbe873779b3d84f9730fc1">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.7.1_d9858ab194d6ba087002a49dfc43ad2124509259\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="97ffb2944e187f94f2c24ff00491c753e9a43dc5">
+        sha1="6e92f4be7649f99a4e8d89f21abd42a1aec6f955">
         <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_17c81e592e53e4e7e682b226c203e27731721a08\classes.dex" />
     </item>
     <item
@@ -196,7 +205,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="891bbe7bfc9e629777d04c874283809b260b41af">
+        sha1="f30fa0b8cf4fe3658788c75d4ff833d540fc74d7">
         <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6497e8ce52f7e8fbed6caa77f9e0884244aa6aa8\classes.dex" />
     </item>
     <item
@@ -288,6 +297,15 @@
         revision="23.0.2"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_3695b02c74eaf341a10694e09ca9eeaa07fd7232\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.dropbox.core\dropbox-core-sdk\2.0.1\77167a7c620a5c94426c74c13c547cfad310729a\dropbox-core-sdk-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="77167a7c620a5c94426c74c13c547cfad310729a">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\dropbox-core-sdk-2.0.1_627882912bad62989e042c12be5ab1b5d84053dd\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -597,6 +615,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.7.1-1\381bac8a9251eea3b6a1e12c77d54dd946ad449d\jackson-databind-2.7.1-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="381bac8a9251eea3b6a1e12c77d54dd946ad449d">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.7.1-1_f08346ebaae110ad55a3dc816eb2ed998ef0d804\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -639,6 +666,15 @@
         revision="23.0.2"
         sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
         <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\json_simple-1.1_7af64972e4939ad95293ac1cebdb0f756f8d7287\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.7.1\4127b62db028f981e81caa248953c0899d720f98\jackson-core-2.7.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4127b62db028f981e81caa248953c0899d720f98">
+        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.7.1_83138d0dcae3b71ede7888ff540cb1f98033969b\classes.dex" />
     </item>
     <item
         is-multidex="true"
