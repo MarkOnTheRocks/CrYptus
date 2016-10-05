@@ -112,34 +112,24 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public ArrayList<String> getAllPasswords() {
         ArrayList<String> array_list = new ArrayList<String>();
-        //hp = new HashMap();
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor res =  db.rawQuery( "select * from registry", null );
         res.moveToFirst();
         while(res.isAfterLast() == false){
             array_list.add(res.getString(res.getColumnIndex(REGISTRY_COLUMN_SITE)));
-            //db.execSQL("select id from registry where REGISTRY_COLUMN_SITE = " + array_list.size());
             res.moveToNext();
         }
-        //System.out.println(array_list);
-        //System.out.println(db.toString());
         return array_list;
     }
 
     public String[] getPasswords() {
         SQLiteDatabase db = this.getReadableDatabase();
+        int c = numPasswords();
         Cursor res = db.rawQuery("select * from registry", null);
         res.moveToFirst();
-        int c = 0;
-        while(res.isAfterLast() == false) {
-            //String a = res.getString(res.getColumnIndex(REGISTRY_COLUMN_SITE));
-            //String b = res.getString(res.getColumnIndex(REGISTRY_COLUMN_PASSWORD));
-            c+=1;
-        }
-        res = db.rawQuery("select * from registry", null);
-        res.moveToFirst();
         String[] result = new String[c];
-        for(int i = 0; i<c && res.isAfterLast()==false; i++) {
+        int i = 0;
+        while(res.isAfterLast()==false) {
             String a = res.getString(res.getColumnIndex(REGISTRY_COLUMN_SITE));
             String b = res.getString(res.getColumnIndex(REGISTRY_COLUMN_PASSWORD));
             StringBuffer t = new StringBuffer("");
@@ -147,6 +137,8 @@ public class DBHelper extends SQLiteOpenHelper {
             t.append("::::");
             t.append(b);
             result[i] = t.toString();
+            res.moveToNext();
+            i++;
         }
         return result;
     }
@@ -154,14 +146,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public int numPasswords() {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor res = db.rawQuery("select * from registry", null);
-        res.moveToFirst();
-        int c = 0;
-        while(res.isAfterLast() == false) {
-            //String a = res.getString(res.getColumnIndex(REGISTRY_COLUMN_SITE));
-            //String b = res.getString(res.getColumnIndex(REGISTRY_COLUMN_PASSWORD));
-            c+=1;
-        }
-        return c;
+        return res.getCount();
     }
 
     public void closeDB() {

@@ -176,8 +176,9 @@ public class PrincipalActivity extends Activity {
                         finish();
                         break;
                     case 4:
-                        Auth.startOAuth2Authentication(getApplicationContext(), getString(R.string.APP_KEY));
-                        //finish();
+                        Intent myIntent4 = new Intent(PrincipalActivity.this, LoginDBoxActivity.class);
+                        startActivity(myIntent4);
+                        finish();
                         break;
                     case 5:
                         Intent myIntent5 = new Intent(PrincipalActivity.this, InfoActivity.class);
@@ -196,25 +197,6 @@ public class PrincipalActivity extends Activity {
         });
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        getAccessToken();
-    }
-
-    public void getAccessToken() {
-        String accessToken = Auth.getOAuth2Token(); //generate Access Token
-        //MainDBoxActivity.ACCESS_TOKEN = accessToken;
-        if (accessToken != null) {
-            //Store accessToken in SharedPreferences
-            SharedPreferences prefs = getSharedPreferences("com.android.marco.cryptus.Dropbox", Context.MODE_PRIVATE);
-            prefs.edit().putString("access-token", accessToken).apply();
-            System.out.println("Ho avuto accesso");
-            //Proceed to MainActivity
-            Intent intent = new Intent(PrincipalActivity.this, MainDBoxActivity.class);
-            startActivity(intent);
-        }
-    }
 
     @Override
     protected void onRestart() {

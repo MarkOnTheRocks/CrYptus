@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="6e92f4be7649f99a4e8d89f21abd42a1aec6f955">
+        sha1="4f7322a99e568524511b1a5851ca933c6bc50c68">
         <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_17c81e592e53e4e7e682b226c203e27731721a08\classes.dex" />
     </item>
     <item
@@ -205,7 +205,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="f30fa0b8cf4fe3658788c75d4ff833d540fc74d7">
+        sha1="43ffa9aba13b49ff5d86f6350db1f61d0278085b">
         <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6497e8ce52f7e8fbed6caa77f9e0884244aa6aa8\classes.dex" />
     </item>
     <item

@@ -20,16 +20,7 @@ public class LoginDBoxActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_dbox);
-        Button SignInButton = (Button) findViewById(R.id.sign_in_button);
-        SignInButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Auth.startOAuth2Authentication(getApplicationContext(), getString(R.string.APP_KEY));
-
-            }
-        });
-
+        Auth.startOAuth2Authentication(getApplicationContext(), getString(R.string.APP_KEY));
     }
 
     @Override
@@ -39,18 +30,15 @@ public class LoginDBoxActivity extends AppCompatActivity {
 
     }
 
+
     public void getAccessToken() {
-        String accessToken = Auth.getOAuth2Token(); //generate Access Token
-        //MainDBoxActivity.ACCESS_TOKEN = accessToken;
+        String accessToken = Auth.getOAuth2Token();
         if (accessToken != null) {
-            //Store accessToken in SharedPreferences
             SharedPreferences prefs = getSharedPreferences("com.android.marco.cryptus.Dropbox", Context.MODE_PRIVATE);
             prefs.edit().putString("access-token", accessToken).apply();
             System.out.println("Ho avuto accesso");
-            //Proceed to MainActivity
             Intent intent = new Intent(LoginDBoxActivity.this, MainDBoxActivity.class);
             startActivity(intent);
         }
     }
 }
-
