@@ -198,7 +198,7 @@ public class MainDBoxActivity extends AppCompatActivity {
         protected void onPostExecute(Object o) {
             super.onPostExecute(o);
             dialog.dismiss();
-            Toast.makeText(context, "File uploaded successfully", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Passwords uploaded successfully", Toast.LENGTH_SHORT).show();
         }
     }
 }

@@ -4,22 +4,22 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="131975963807225"
+    timestamp="132371073903941"
     token="-3775522476882194043"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="344" />
+        duration="251" />
     <task
         name="instant-run-dex"
-        duration="388" />
+        duration="284" />
     <task
         name="instant-run-transform"
-        duration="50" />
+        duration="14" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
     <artifact
         location="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\reload-dex\debug\classes.dex"
@@ -44,6 +44,27 @@
     </build>
     <build
         timestamp="131975963807225"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\builds\debug\131975963807225\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="132182036095495"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\builds\debug\132182036095495\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="132358453701997"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\builds\debug\132358453701997\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="132371073903941"
         verifier="COMPATIBLE" >
         <artifact
             location="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\reload-dex\debug\classes.dex"

@@ -13,7 +13,7 @@ import com.dropbox.core.v2.users.FullAccount;
 public class UserAccountTask extends AsyncTask<Void, Void, FullAccount> {
 
     private DbxClientV2 dbxClient;
-    private TaskDelegate  delegate;
+    private TaskDelegate delegate;
     private Exception error;
 
     public interface TaskDelegate {
@@ -22,7 +22,7 @@ public class UserAccountTask extends AsyncTask<Void, Void, FullAccount> {
     }
 
     UserAccountTask(DbxClientV2 dbxClient, TaskDelegate delegate){
-        this.dbxClient =dbxClient;
+        this.dbxClient = dbxClient;
         this.delegate = delegate;
     }
 

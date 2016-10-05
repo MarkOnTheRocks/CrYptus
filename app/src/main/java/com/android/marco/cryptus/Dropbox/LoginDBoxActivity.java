@@ -36,7 +36,6 @@ public class LoginDBoxActivity extends AppCompatActivity {
         if (accessToken != null) {
             SharedPreferences prefs = getSharedPreferences("com.android.marco.cryptus.Dropbox", Context.MODE_PRIVATE);
             prefs.edit().putString("access-token", accessToken).apply();
-            System.out.println("Ho avuto accesso");
             Intent intent = new Intent(LoginDBoxActivity.this, MainDBoxActivity.class);
             startActivity(intent);
         }
