@@ -20,12 +20,12 @@
         "source": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.16.1\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
-        "merged": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\soap.xml",
         "source": "F:\\Android Studio Projects\\CrYptus\\app\\src\\main\\res\\layout\\soap.xml"
+    },
+    {
+        "merged": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
@@ -96,12 +96,12 @@
         "source": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "F:\\Android Studio Projects\\CrYptus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_db.xml",

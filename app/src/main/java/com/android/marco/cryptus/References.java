@@ -13,7 +13,7 @@ import static android.content.Context.LOCATION_SERVICE;
  */
 public class References {
 
-    public static final String address = "http://192.168.0.11:8084";
+    public static final String address = "http://192.168.0.6:8084";
     public static String id;
     public static String name;
     public static String indirizzo;

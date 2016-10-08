@@ -48,21 +48,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="fb15fd9774b5c51dcb39d8e6fa1b6f06bcd1cd34">
-        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.2.0_082b9bd1477ab360d2d96bdd4aa61c32230554f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="33b5900f82d19fd3dacee518363b249ace77b8f5">
         <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.2.0_dc36bd3e79051e2a6ecdcfecba427cbfa7432cbc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fb15fd9774b5c51dcb39d8e6fa1b6f06bcd1cd34">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.2.0_082b9bd1477ab360d2d96bdd4aa61c32230554f8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -412,7 +412,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="1f24a7e90a8f53bc487a860020ec946f2ecd57de">
+        sha1="2fd6b32e48fd3e068ebeecdb0a20fefd811d9ad9">
         <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7ea59b67a8907e5e8b72e4d0f075d0941b0c8856\classes.dex" />
     </item>
     <item
@@ -646,7 +646,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="e3c6c5246fb00efd083c0415a6d80ed3128a2dee">
+        sha1="f3258e4d1435f8f298bc6a177ad69e2af3ada0c3">
         <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d7d6065378c6040c57c3a497c96799008f8dbee7\classes.dex" />
     </item>
     <item
