@@ -4,6 +4,8 @@ package com.android.marco.cryptus;
  * Created by marco on 18/08/2016.
  */
 import android.app.ProgressDialog;
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.location.Criteria;
 import android.location.Location;
@@ -48,7 +50,7 @@ public class ShowPasswordActivity extends AppCompatActivity {
 
     TextView site;
     TextView email;
-    TextView password, tpass;
+    TextView password, tpass, passwordedit;
     TextView date;
     TextView alg, talg, instr;
     RadioButton rb0, rb7, rb8, rb9, rb10, rb11, rb12, rb13;
@@ -85,6 +87,16 @@ public class ShowPasswordActivity extends AppCompatActivity {
         site = (EditText) findViewById(R.id.editTextSite);
         email = (EditText) findViewById(R.id.editTextEmail);
         password = (EditText) findViewById(R.id.editTextPassword);
+        password.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                ClipboardManager clipboard = (android.content.ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+                ClipData clip = android.content.ClipData.newPlainText("Clip",password.getText());
+                Toast.makeText(getApplicationContext(), "Text Copied to Clipboard", Toast.LENGTH_SHORT).show();
+                clipboard.setPrimaryClip(clip);
+                return true;
+            }
+        });
         tpass = (TextView) findViewById(R.id.textViewPass);
         password.setVisibility(View.INVISIBLE);
         tpass.setVisibility(View.INVISIBLE);
@@ -265,9 +277,8 @@ public class ShowPasswordActivity extends AppCompatActivity {
                     this.email.setClickable(false);
                     this.password.setVisibility(View.VISIBLE);
                     this.password.setText((CharSequence) arr[2]);
-                    this.password.setFocusable(true);
-                    this.password.setEnabled(true);
-                    this.password.setTextIsSelectable(true);
+                    this.password.setFocusable(false);
+                    this.password.setClickable(false);
                     this.date.setText((CharSequence) arr[3]);
                     this.date.setFocusable(false);
                     this.date.setClickable(false);
@@ -452,14 +463,13 @@ public class ShowPasswordActivity extends AppCompatActivity {
                 rb13.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        //methodname = rb13.getText().toString();
-                        skb.setProgress(10);
-                        skb.setMax(50);
                         tpass.setVisibility(View.VISIBLE);
                         password.setVisibility(View.VISIBLE);
+                        //password = passwordedit;
                         skb.setVisibility(View.INVISIBLE);
                         instr.setVisibility(View.INVISIBLE);
                         rbSelector(rb13);
+
                     }
                 });
                 for(int i = 0; i<8; i++) {
@@ -473,9 +483,9 @@ public class ShowPasswordActivity extends AppCompatActivity {
                 alg.setVisibility(View.INVISIBLE);
                 Button b = (Button)findViewById(R.id.button1);
                 b.setVisibility(View.VISIBLE);
-                site.setEnabled(true);
-                site.setFocusableInTouchMode(true);
-                site.setClickable(false);
+                //site.setEnabled(true);
+                //site.setFocusableInTouchMode(true);
+                //site.setClickable(false);
                 email.setEnabled(true);
                 email.setFocusableInTouchMode(true);
                 email.setClickable(true);
@@ -483,9 +493,10 @@ public class ShowPasswordActivity extends AppCompatActivity {
                 password.setFocusableInTouchMode(true);
                 password.setClickable(true);
                 date.setText(References.getDate());
-                alg.setEnabled(true);
+                /*alg.setEnabled(true);
                 alg.setFocusableInTouchMode(true);
                 alg.setClickable(true);
+                */
                 saver.setText("SAVE UPDATES");
                 return true;
 
@@ -651,7 +662,8 @@ public class ShowPasswordActivity extends AppCompatActivity {
         String s = References.getDate().toString();
         String id = References.id;
         String name = References.name;
-        int num = s.length() + id.length() + name.length();
+        String Ip = References.IPaddr;
+        int num = s.length() + id.length() + name.length() + Ip.length();
         char arr[] = new char[num];
         for(int i = 0; i<s.length(); i++) {
             arr[i] = s.charAt(i);
@@ -660,8 +672,12 @@ public class ShowPasswordActivity extends AppCompatActivity {
             arr[i] = id.charAt(i-s.length());
         }
         for(int i = s.length() + id.length(); i<s.length() + id.length() + name.length(); i++) {
-            arr[i] = name.charAt(i-s.length()-id.length());
+            arr[i] = name.charAt(i - s.length() - id.length());
         }
+        for(int i = s.length() + id.length() + name.length(); i<s.length() + id.length() + name.length() + Ip.length(); i++) {
+            arr[i] = Ip.charAt(i - s.length() - id.length()-name.length());
+        }
+
         char[] arrb = new char[arr.length];
         for(int i = 0; i<arrb.length; i++) {
             int k = (int)(Math.random()*Math.pow(10, 2));

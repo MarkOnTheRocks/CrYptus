@@ -3,741 +3,741 @@
 
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="7378806b630886994099d03c369983f2848a609f">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.2.0_3b3ae8937275920dafbc45cf59efe46aaadee4fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.mopub.volley\mopub-volley\1.1.0\4357bce66ae3bb9be50679e43df122fd0a8f3394\mopub-volley-1.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="4357bce66ae3bb9be50679e43df122fd0a8f3394">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\mopub-volley-1.1.0_2ec0b128d57dbbaf1a25692e14aa7992c325e8c5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_2d1e108bad38d554f7fa772429be39c1132897f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_73bc03f367c04f674cf88b634fb67145c6e196f7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.7.1\8b93f301823b79033fcbe873779b3d84f9730fc1\jackson-annotations-2.7.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8b93f301823b79033fcbe873779b3d84f9730fc1">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.7.1_d9858ab194d6ba087002a49dfc43ad2124509259\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="4f7322a99e568524511b1a5851ca933c6bc50c68">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_17c81e592e53e4e7e682b226c203e27731721a08\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-native-static\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="39272a9ba73cacab5b5f248893e7cbd6b9608c5e">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-native-static-4.9.0_d27b6f7da48b5764aa2d133c2b7499b6d020559f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="1dc44c4798cbd79e95e4838a3fdc734c0e3f895f">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.2.0_f22184339f3e31fc77977bb4f58eeabfa92d5c29\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="b53d61bae49278c0fa202d9066d2e72fc151c1e8">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.2.0_122a36bef909338f085e383c2f56480a84cb74e0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="535d4497b5fa5d451e07a043e9e220d5c25ab7c7">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.2.0_2ea16c2f49118cc2d2e5b0a125424fb469835253\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="404f4108b41050173f93836f5b35efdd9525a0ad">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.2.0_bba2b93ce8b143c10415767c788148d7aca28fb3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8ad1b5663f367dac619256d75fb08a98c7baa4f4">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.2.0_bfbbeb7867bc0a25213d9b5609f76af575683b56\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_d7029c8b230266fd683dcd1eaacee49afacd0b7a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="e791f7f2fbf9ca5b3b576916533f844dfb384024">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.2.0_199484f294b1896a71f6eae16fc1f64324dc0781\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="982031d2aa9652bc955d0b581ec70378c0adfc56">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.2.0_c7fda417060b7ebe742f1a6aa38f81f89a931ef0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="fb15fd9774b5c51dcb39d8e6fa1b6f06bcd1cd34">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.2.0_64b2d185e2c405b0d695bbb7ced4cc918162eb8a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="f315c6b5b99081f16a79c9aaa557328a4644fe63">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.2.0_5ed4e9676eb55a43061a35e2a13fd8c67257c356\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="7428f0d1debdcf1b5792a26146e51a38d992d04d">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.2.0_8ef1821549789ee0f71daeeb766d27767fc25147\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="dc4c18602ecffb3e69cda6cdc51ba4feac0f97d7">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.2.0_21b7cf42bf43983ea5395180c38d0d169994f2ac\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-rewardedvideo\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="fd0504417661d9e02b3c06015e273c5e6f7115d2">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-rewardedvideo-4.9.0_6ef233b8da3a375df106c9c13dcc8e81c96e60c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_5c609c165f611835a86efad66b82e9e4c4ccacd2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-interstitial\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="480647ff86598f692c648d1d7da8b97806d3004e">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-interstitial-4.9.0_ad01690f080e6c77fc70821199a030b9d253626e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="43ffa9aba13b49ff5d86f6350db1f61d0278085b">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6497e8ce52f7e8fbed6caa77f9e0884244aa6aa8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="7c39a4b431976abc46d3cf6344c75d06c769cd35">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.2.0_0ebc582c429ed6081f3cd5bf13388e430362175b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="30489a97b06cc3945bdbcc1770089af9e3b3b64d">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.2.0_e166033d8a0761f2c82ac2c11455e109abd83aee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="e3f200938bb888d83c2da807cb6aee983baae254">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.2.0_5b38a92e0fcae78bed2bcabca7c7035381b739fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="33203b081101ca6242a4cd746aafe5fc2dd98a34">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.2.0_d49ae3b5613e055f3c6a73a1035d577befa2bf3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="4838df6db988160b107e954e02a745370df543b6">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.2.0_f3ac23737fe0fd3bab64a511b6ecf0dbc333bada\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a378adc3106cb3560ab3dfed05f1fda26cff5b49">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.2.0_085ecb7d227ea189450dd8339f1b005305dee88d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a03f4d605b0f29222c2ddf8b7896258cb4b92def">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.2.0_8076a31228d42ec5f1f0880d547fe2501b7cd288\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="be009dbe07b3a252c8cda07fc948ac713d2f5171">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.2.0_3ecb8c94d47024c69abc31ce4fda50593a6494c4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.16.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="df6791bb4f5402ed138d3dd1385f8e2bc3ac8728">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.16.0_2facab1ce9894ceda92f4ef3bd9286fa00874752\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_3695b02c74eaf341a10694e09ca9eeaa07fd7232\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.dropbox.core\dropbox-core-sdk\2.0.1\77167a7c620a5c94426c74c13c547cfad310729a\dropbox-core-sdk-2.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="77167a7c620a5c94426c74c13c547cfad310729a">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\dropbox-core-sdk-2.0.1_627882912bad62989e042c12be5ab1b5d84053dd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="44120508d7240c3e34a05957981a5c3c9b9f61aa">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.2.0_224d12513e1f81d613734662c0f0d8b1b1544155\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_ad32bb0ad1780966f92baa0c1a4caa127f1b37eb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-base\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8ca4762a1bbf07cc027f9d158024ce4e0f47019d">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-base-4.9.0_489de9691b631fc152f58a9f90f38afe1e361d55\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="39261f58509b1a379df041f03da394c29da05395">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.2.0_9ef6bd5932024bae08ca1ae96527808c8becfd77\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_c659aba594334fcdda16bfe3846bc7c4cf46e2f9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d03ddcb73c4eb0038aeaa53c10e873a8d8b48f58">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-4.9.0_8c4d7a669ccab9bc299eeb3f990489fce52f916d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\libs\dropbox-android-sdk-1.6.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="986e7a58e925c6f91b88ae8d3224a0550b65acc7">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\dropbox-android-sdk-1.6.3_473390e95b54f60d9f85966eae5b7bd830e5a1cd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="fa6c324604383981fb74c4cb036d4171ed0a9a02">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.2.0_9a7ab1a6362d98f658ccddf32fd540682594a9a8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="08cdd337d1d9247eb915f0ab365624dd7966e7fa">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.2.0_563c00b37a1e4eb26ff5ef449fda19f744d2ece4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="7c7c21cc7a45d5c2a57d77f4840d4d4ea3c7604f">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.2.0_68580aaf7f9f28ba63b6e41867d29ee69133a1c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="363f626ad5686283250cdb6073ae1bba5cb07a87">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.2.0_8f0845bca7b11394148ab0eebe3fd4097da92bcd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_bf37c99260a7139a6012edd49dbc5e03f91b2603\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_f216c2ae05f6d3fe86fae09be0c048888a2cfc03\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="3c8fcebabb73df25937704f5566bf6c388ea941d">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.2.0_f4cb971c4d291b973fb24a1215674ecf88ee3347\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_f9a1ddc2c49be9d811ff9b81e94ee8e503312867\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="0595e77431edaba6793410f9bfa3603c063c58e7">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.2.0_81f0350c20e1e5596de13e77b6c7bee459580bd2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="fbb50f7f89342c915898c9376a67229e2fcee286">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.2.0_5a428bc112ad1751c5ac493f6d74f02269b41786\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_58fc12c10bebd8cf41bfe8d9dfafe7db083fd84d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a0712565a784bedd07ada2393c95e0b1e288840f">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.2.0_dd2334ce6fddbeba38e4dc0e81698dab99e8215b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_e1f6101d76914cea8bd632cd3ddbd5acc83f5636\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="33b5900f82d19fd3dacee518363b249ace77b8f5">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.2.0_0e4e1f6f2f12ad46ea99e8ceda93c9869e43b8e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d7572433ba21aa9e4624c819fa738b2748b82d05">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.2.0_030a0f28333115003f70e224830613fd2dff6aa6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="dd7b4a8e01cafa79a0b228b2ee5bd57ae5577444">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.2.0_93217739d0bf929c58bec59b1f21302c22181d3f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="163b095362fd14d682ac311bf672c2fb54de5078">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.2.0_ab52e21d3af9e31d918139fb9894db085b9bdcbd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_6c2a284fdd61d0d8ac24aa3991d9cfbc35ef85c7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="811202a9098047576814fc2171b56b83b537a8b9">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.2.0_826b4e7e2fcb17c58dda0b9ec9b7fb06b7b1de38\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="dd7676ac12aa6653718b7ea33d93ce9d6915d526">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.2.0_8f2f90693912cce037980935a3a20603df3d1148\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="18e52280643effbab30370b073e456d670a0db54">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.2.0_764eb35d50d7ec9ad7425712a21020980fd8ca88\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="20ca7888c59f63d439f218a8810c88039f8bc7db">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.2.0_bd0ed058925d0b9bf71fe5e820175a7c64a299d0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_90a3369325a04d2e968fa221983b477273865b2f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.0\jars\classes.jar"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="21bb89120d84fa29afeb0f9c0ebf415bc3b45a7e">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.2.0_ebcca7c12e5772bdc1041e5b0dd7d28052b46668\classes.dex" />
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.2.0_7ba64f73c027538ebc827ce404c9e1d0be0bcd8e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.5.6\jars\classes.jar"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e3f200938bb888d83c2da807cb6aee983baae254">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.2.0_e3d45b8664adf5273b7831d4362d5b4b27063706\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="18e52280643effbab30370b073e456d670a0db54">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.2.0_69c12a8d137e0e52961b5b0e6cc9510acfeeee05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.5.6\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="3c046dc3c0911d142627192884ee771d9a6f5f34">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.exoplayer-exoplayer-r1.5.6_37ddbda0861e61aa2f19421803ee5a7405a14035\classes.dex" />
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.exoplayer-exoplayer-r1.5.6_d243aadeee30aacc765d6df0802c909f600d6518\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.2.0\jars\classes.jar"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="5acfd484717d9175c175569a114d46dbeec074ed">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.2.0_d62b52b79a1cf1138b19a2f5d7d13aa8fc3a64c3\classes.dex" />
+        sha1="1dc44c4798cbd79e95e4838a3fdc734c0e3f895f">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.2.0_d2222f141cbe21c23e91975b9a9435a4daba526e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.0\jars\classes.jar"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="299e04800d1169b9f3dd04c376c7b266a3594cca">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.2.0_f044c044bd8be1570019114d802cb54b7d0b41ef\classes.dex" />
+        sha1="fb15fd9774b5c51dcb39d8e6fa1b6f06bcd1cd34">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.2.0_082b9bd1477ab360d2d96bdd4aa61c32230554f8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.7.1-1\381bac8a9251eea3b6a1e12c77d54dd946ad449d\jackson-databind-2.7.1-1.jar"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="381bac8a9251eea3b6a1e12c77d54dd946ad449d">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.7.1-1_f08346ebaae110ad55a3dc816eb2ed998ef0d804\classes.dex" />
+        sha1="33b5900f82d19fd3dacee518363b249ace77b8f5">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.2.0_dc36bd3e79051e2a6ecdcfecba427cbfa7432cbc\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="593fbaec1c3e100480a2bd72457b64b7dde6ac2d">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.2.0_2fde405e2c5260d098a6c9b7531d604f7e06c399\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_58e66ba26912b583a91b22ba9668b4dd6bcd3b16\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="74694bf98bd1f856cf478bd0c516531801badced">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.2.0_20a44c135a8ad94916f1a5280a34b371a906a281\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a06eb7761fca120bbb46b34b930a3a3462ba9d7f">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.2.0_ad794d63970699e1bd38ec3815f7a6ce99fcf2df\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\libs\json_simple-1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\json_simple-1.1_7af64972e4939ad95293ac1cebdb0f756f8d7287\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Marco Mancuso\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.7.1\4127b62db028f981e81caa248953c0899d720f98\jackson-core-2.7.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="4127b62db028f981e81caa248953c0899d720f98">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.7.1_83138d0dcae3b71ede7888ff540cb1f98033969b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="ce9432b50a02be101bc491a1b38d3904200bd988">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.2.0_fec82ec70368c44647cb0762badecbd3b10f4e58\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="f56a68df45e18ce77814db6553fdaa229308f49b">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.2.0_e33c493f1f1e6d762e721de4971b193f0478df30\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-native-video\4.9.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8ff95b836a54b6228ef323162dcc887a3b1181bd">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-native-video-4.9.0_1b64dd2368559cb3370b3e8b6d472082c49aea52\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8ec9ae00d45e758ac5b7a1c5dc0daa8a4b24280f">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.2.0_2292af8bc2b1eaf86426c07ba9d84f0b4dc7884e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\libs\ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-3.4.0-jar-with-dependencies_8ea48e83a229414b41f8335835956e925961a05c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.0\jars\classes.jar"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="e91e1f335dc418d0138991a1d5155f0490ab6082">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.2.0_7fad586ee2a147eb4d96d7c14e9f0913c06ee59b\classes.dex" />
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.2.0_9108d9b67651efd7bfa5d5dd99a2005896132dc7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-banner\4.9.0\jars\classes.jar"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="163b095362fd14d682ac311bf672c2fb54de5078">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.2.0_0cbec9f1bf50859c4b2c4a5b7401ac67381a173c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a03f4d605b0f29222c2ddf8b7896258cb4b92def">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.2.0_47ee0252b2e000d4031a087040ec6cfdecd122c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-interstitial\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="480647ff86598f692c648d1d7da8b97806d3004e">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-interstitial-4.9.0_dd7e9df3d68f8a62962fc607f60c31fd476f4ea6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_c7abe3576c6f471527225985db158fcccb28b9db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a0712565a784bedd07ada2393c95e0b1e288840f">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.2.0_3a8e8ee22dd77ce0fc5961f6fcc5062d86023406\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="33203b081101ca6242a4cd746aafe5fc2dd98a34">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.2.0_8a13b4718c1021da18fd7363ca38a8116d3f20bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="39261f58509b1a379df041f03da394c29da05395">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.2.0_5e682536163a56830721bcf780cb9ff06fede3b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_bc910625af6e9ae97fd96576882cbe02ac08648f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="363f626ad5686283250cdb6073ae1bba5cb07a87">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.2.0_fd8a2f5838cfe8705efdf5d59ec3358928acb00c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\libs\json_simple-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\json_simple-1.1_45663c69d6292ddf0917d8c8e77c78590d234af1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="593fbaec1c3e100480a2bd72457b64b7dde6ac2d">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.2.0_4d13dc083ee11c18546a92b8cb5e3e6ad54bef1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ec9ae00d45e758ac5b7a1c5dc0daa8a4b24280f">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.2.0_8808eeeeb8431741c475ae9facb160f2ed2b9b89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dd7676ac12aa6653718b7ea33d93ce9d6915d526">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.2.0_15618b4355491a35009a1758c7842016d840fc2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.mopub.volley\mopub-volley\1.1.0\4357bce66ae3bb9be50679e43df122fd0a8f3394\mopub-volley-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4357bce66ae3bb9be50679e43df122fd0a8f3394">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\mopub-volley-1.1.0_45114047ce209646ced70a26ad05716133b50b4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="44120508d7240c3e34a05957981a5c3c9b9f61aa">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.2.0_acf6952c34bec8ed0b9de9c49e27deb1c8e4c7f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\marco\OneDrive\Documenti\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_be2bb56b1c7da09138bc0eb856550437b1f67a03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f315c6b5b99081f16a79c9aaa557328a4644fe63">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.2.0_8cd5598b2f76b8d5c0489317d5ef6d43e4286ec1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4838df6db988160b107e954e02a745370df543b6">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.2.0_56ff598f4e11ca137ae62c31074fc00dcbcbc276\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="404f4108b41050173f93836f5b35efdd9525a0ad">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.2.0_7e58aca368207a3687b68a9955c01653758c06c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.7.1\4127b62db028f981e81caa248953c0899d720f98\jackson-core-2.7.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4127b62db028f981e81caa248953c0899d720f98">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.7.1_316b5827953d328258b45cb5d825321720fb4e40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7428f0d1debdcf1b5792a26146e51a38d992d04d">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.2.0_ebbedce151a03496b2562bd03e7a69e3ec7969b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_f47033d6f46835968c45e7e1272f2e9594241f5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-native-video\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ff95b836a54b6228ef323162dcc887a3b1181bd">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-native-video-4.9.0_80c071680682154f3a5902569764ce38bf510dfb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.7.1-1\381bac8a9251eea3b6a1e12c77d54dd946ad449d\jackson-databind-2.7.1-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="381bac8a9251eea3b6a1e12c77d54dd946ad449d">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.7.1-1_5ea2955a41a06f36ae60432425233c0253ea99b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="535d4497b5fa5d451e07a043e9e220d5c25ab7c7">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.2.0_3df35f8185967a2fd9682520626a7b5ca417df4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="74694bf98bd1f856cf478bd0c516531801badced">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.2.0_0fafbcbf62480c67a3cc586f9e1cd3dfeb563cc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7c7c21cc7a45d5c2a57d77f4840d4d4ea3c7604f">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.2.0_b9e68d9363e035eb61b5657991fcc120c449a0a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_33bef3c8a5c54d2ab1443a6a2d53f744e7fc4760\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3c8fcebabb73df25937704f5566bf6c388ea941d">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.2.0_90481ccebec315b98cda30375e925d3f2c686b71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a378adc3106cb3560ab3dfed05f1fda26cff5b49">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.2.0_7ce5a53d385a38f57c1a76ceb0c6dc8d98bbdec9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_c304d70a386d3ac70b62a7a7e2219a2951b8fc6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_65d4247604a7cdb2005da6d81dc5e1e367918a2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="08cdd337d1d9247eb915f0ab365624dd7966e7fa">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.2.0_73ef666d29f6fa04163929e37ad39c2656139971\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_224881ff70df0a189765b0329b924cb8c834c6e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_95f85b887812494b7e6e0ea0208067a55a3036c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e791f7f2fbf9ca5b3b576916533f844dfb384024">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.2.0_99a3a0dabf17846cabce632245853cfe6edffb20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="811202a9098047576814fc2171b56b83b537a8b9">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.2.0_7c0ffd11e47d43b69b7547ef72df0e9d446557db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1f24a7e90a8f53bc487a860020ec946f2ecd57de">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7ea59b67a8907e5e8b72e4d0f075d0941b0c8856\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.7.1\8b93f301823b79033fcbe873779b3d84f9730fc1\jackson-annotations-2.7.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8b93f301823b79033fcbe873779b3d84f9730fc1">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.7.1_1abc650e886af9cc50268a4dd6b46e4c0d9bb669\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-native-static\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="39272a9ba73cacab5b5f248893e7cbd6b9608c5e">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-native-static-4.9.0_ac7af22a6cd8f767d6271eb70acb6e62a22ad1d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="be009dbe07b3a252c8cda07fc948ac713d2f5171">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.2.0_20e87a9043efcea38b0544f7832f5af6386e661c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-banner\4.9.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="22dd02e36666f50344f515cb6b665fe253d341dd">
-        <dex dex="D:\AndroidStudioProjects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-banner-4.9.0_49a51da631ed395eda516aefa9a8dbe9b8b71533\classes.dex" />
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-banner-4.9.0_5cc5024cc24e8eb57711da0fe7a0420e69126a03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_4a8c041d0d7ac8b33a679c1e482c1e43a6714661\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="20ca7888c59f63d439f218a8810c88039f8bc7db">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.2.0_8f7694730881903adf91184797eb0b5ddfaaed27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.16.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="99d79164a8f983161bdb59b1403b9e4a1127aae1">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.16.1_2cbecfae2f3847de122fc7ed2088b62fa0340a74\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ad1b5663f367dac619256d75fb08a98c7baa4f4">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.2.0_73813649997e23736a77cd70ffe6d0b384c4287e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_dd849811c965fd33d6735a9857e405e8829acb12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a06eb7761fca120bbb46b34b930a3a3462ba9d7f">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.2.0_f74572e87252cc1fe9ee99219516ac28219f3109\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fbb50f7f89342c915898c9376a67229e2fcee286">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.2.0_b65f620e12dbb49bb7b9449634b1ee69844f5798\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dc4c18602ecffb3e69cda6cdc51ba4feac0f97d7">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.2.0_8e2085a9652dec2d002932b12b67356e9a0a56b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.dropbox.core\dropbox-core-sdk\2.0.1\77167a7c620a5c94426c74c13c547cfad310729a\dropbox-core-sdk-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="77167a7c620a5c94426c74c13c547cfad310729a">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\dropbox-core-sdk-2.0.1_ef63abe0cafa7dd6278066ea6772ce7c09d49687\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f56a68df45e18ce77814db6553fdaa229308f49b">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.2.0_66753934b5eb60f2aabaad35b1a44d95af2c395c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\libs\ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-3.4.0-jar-with-dependencies_ea70de26fbba3008cc2cf03b7ded811fffd8749d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-base\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ca4762a1bbf07cc027f9d158024ce4e0f47019d">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-base-4.9.0_58036885bb53bb7e7e486ee33c95db5ba60d78a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7c39a4b431976abc46d3cf6344c75d06c769cd35">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.2.0_26c95433dbe46cf38b29f90bd5a2c5076aaa3f04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d03ddcb73c4eb0038aeaa53c10e873a8d8b48f58">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-4.9.0_9d25e39192490947d2a736d01597ee18532fd467\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\marco\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_26c3e80b128aba7cfc217fb03d321cf1509568ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fa6c324604383981fb74c4cb036d4171ed0a9a02">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.2.0_5dc8074de13f4136091287367705370508e0d595\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b53d61bae49278c0fa202d9066d2e72fc151c1e8">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.2.0_fbf332d74c4b4f0d9c271b67691ac78c2963318f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0595e77431edaba6793410f9bfa3603c063c58e7">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.2.0_b19c50996680e3cefd7986ae4ba31c3f92d30f61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dd7b4a8e01cafa79a0b228b2ee5bd57ae5577444">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.2.0_0eee164dc831448bee61c788478ee0a9cf4e0a6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="982031d2aa9652bc955d0b581ec70378c0adfc56">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.2.0_a8012da754b075bfbea50a7078412edd80aee4c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7572433ba21aa9e4624c819fa738b2748b82d05">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.2.0_c45a9cfaaca2addb19ebcee92dbfacfb7d4aa1a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e3c6c5246fb00efd083c0415a6d80ed3128a2dee">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d7d6065378c6040c57c3a497c96799008f8dbee7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="30489a97b06cc3945bdbcc1770089af9e3b3b64d">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.2.0_2984970566dbc2cd0532139cb53100e8a9ce507f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7378806b630886994099d03c369983f2848a609f">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.2.0_9e941a304ac7b91504210bddf393366d55cf7bca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_fcf557d3967ad42b6abb4fe3feedecabff03edf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="299e04800d1169b9f3dd04c376c7b266a3594cca">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.2.0_96a25f68de20f0cc51a46138a027e22592f3e05a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\libs\dropbox-android-sdk-1.6.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="986e7a58e925c6f91b88ae8d3224a0550b65acc7">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\2\dropbox-android-sdk-1.6.3_a454925e46f68a455d2538c73bcd7599a7790966\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5acfd484717d9175c175569a114d46dbeec074ed">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.2.0_037c16569b56a23ba8050d7bf553a6415399a69e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_d33edf4267854a9fd71cf82acc168d5b54992c5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ce9432b50a02be101bc491a1b38d3904200bd988">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.2.0_325ba522794d4b8c6eb8f2ec14b0e59f5e92a496\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-rewardedvideo\4.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fd0504417661d9e02b3c06015e273c5e6f7115d2">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mopub-mopub-sdk-rewardedvideo-4.9.0_6d64a77531aa8e7a254f2e631c649ffeed48ce27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android Studio Projects\CrYptus\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="F:\Android Studio Projects\CrYptus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_3133866f7429fa35ce50e39c436d7615a65915c4\classes.dex" />
     </item>
 
 </items>
