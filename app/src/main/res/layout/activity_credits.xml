@@ -44,8 +44,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
     </RelativeLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,6 +54,18 @@
         android:text="CrYpto Corp."
         android:id="@+id/textView6"
         android:layout_marginTop="490dp"
+        android:layout_weight="0.50"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_gravity="bottom"
+        android:text="RH: d800034620af0e04ff633979b862229aca994d48"
+        android:id="@+id/textView7"
+        android:layout_marginTop="460dp"
         android:layout_weight="0.50"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true" />
