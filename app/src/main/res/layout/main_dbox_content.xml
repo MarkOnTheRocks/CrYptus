@@ -13,22 +13,13 @@
     tools:showIn="@layout/activity_main_dbox">
 
     <TextView
-        android:text="Click on the button to upload on DropBox your passwords"
+        android:text="Click on the buttons to recover(left) or upload(right) on DropBox your passwords"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView8"
-        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="93dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/textView5"
-        android:layout_marginBottom="48dp" />
-
-    <TextView
-        android:text="(Access information about your DropBox account)"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView5"
-        android:layout_below="@+id/accountData"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentStart="true" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,8 +27,6 @@
         android:orientation="vertical"
         android:id="@+id/accountData"
         android:weightSum="1"
-        android:layout_marginTop="40dp"
-        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true">
 
         <ImageView
@@ -92,6 +81,15 @@
             android:layout_above="@+id/textView5"
             android:layout_alignStart="@+id/textView5"
             android:layout_marginBottom="18dp"
+            android:layout_weight="0.87" />
+
+        <TextView
+            android:text="(Access information about your DropBox account)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/accountData"
+            android:layout_centerHorizontal="true"
             android:layout_weight="0.87" />
 
     </LinearLayout>

@@ -33,6 +33,9 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Marco Mancuso on 04/10/2016.
@@ -50,7 +53,6 @@ public class MainDBoxActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_dbox);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         if (!tokenExists()) {
             Intent intent = new Intent(MainDBoxActivity.this, LoginDBoxActivity.class);
             startActivity(intent);
@@ -58,11 +60,18 @@ public class MainDBoxActivity extends AppCompatActivity {
         ACCESS_TOKEN = retrieveAccessToken();
         getUserAccount();
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton fabup = (FloatingActionButton) findViewById(R.id.fabup);
+        FloatingActionButton fabdown = (FloatingActionButton) findViewById(R.id.fabdown);
+        fabup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 upload();
+            }
+        });
+        fabdown.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                download();
             }
         });
     }
@@ -106,7 +115,12 @@ public class MainDBoxActivity extends AppCompatActivity {
         String[] pass = db.getPasswords();
         FileOutputStream fos;
         try {
-            fos = openFileOutput("password.txt", Context.MODE_PRIVATE);
+            File f = new File("/data/user/0/com.android.marco.cryptus/files/passwordtoup.txt");
+            if(f.exists()) {
+                //System.out.println("trovato duplicato");
+                f.delete();
+            }
+            fos = openFileOutput("passwordtoup.txt", Context.MODE_PRIVATE);
             for(int i = 0; i<pass.length; i++) {
                 StringBuffer k = new StringBuffer(pass[i]);
                 StringBuffer appo = new StringBuffer("sito: '");
@@ -122,10 +136,20 @@ public class MainDBoxActivity extends AppCompatActivity {
         catch(Exception e) {
             e.printStackTrace();
         }
-        File file = new File("/data/user/0/com.android.marco.cryptus/files/password.txt");
+        File file = new File("/data/user/0/com.android.marco.cryptus/files/passwordtoup.txt");
         new UploadTask(DropBoxClient.getClient(ACCESS_TOKEN), file, getApplicationContext()).execute();
     }
 
+
+    private void download() {
+        if (ACCESS_TOKEN == null) {
+            return;
+        }
+        DBHelper db = new DBHelper(this);
+        String[] pass = db.getPasswords();
+
+        new DownloadTask(DropBoxClient.getClient(ACCESS_TOKEN), getApplicationContext()).execute();
+    }
 
     private boolean tokenExists() {
         SharedPreferences prefs = getSharedPreferences("com.android.marco.cryptus.Dropbox", Context.MODE_PRIVATE);
@@ -161,7 +185,7 @@ public class MainDBoxActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             Log.i(TAG, "onPreExecute");
-            this.dialog.setMessage("Processing...");
+            this.dialog.setMessage("Processing the upload...");
             this.dialog.show();
         }
 
@@ -199,6 +223,75 @@ public class MainDBoxActivity extends AppCompatActivity {
             super.onPostExecute(o);
             dialog.dismiss();
             Toast.makeText(context, "Passwords uploaded successfully", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    class DownloadTask extends AsyncTask {
+
+        private final ProgressDialog dialog = new ProgressDialog(MainDBoxActivity.this);
+
+        @Override
+        protected void onPreExecute() {
+            Log.i(TAG, "onPreExecute");
+            this.dialog.setMessage("Processing the download...");
+            this.dialog.show();
+        }
+
+        private DbxClientV2 dbxClient;
+        private Context context;
+
+        DownloadTask(DbxClientV2 dbxClient, Context context) {
+            this.dbxClient = dbxClient;
+            this.context = context;
+        }
+
+        @Override
+        protected Object doInBackground(Object[] params) {
+            try {
+                // Download from Dropbox
+                File file = new File("/data/user/0/com.android.marco.cryptus/files/password.txt");
+                OutputStream outputStream = new FileOutputStream(file);
+                StringBuffer sb = new StringBuffer(file.getName());
+                int c = sb.lastIndexOf("t");
+                sb.replace(c-3,c, "toup.txt");
+                dbxClient.files().download("/passwordtoup.txt").download(outputStream); //Path in the user's Dropbox to save the file.
+                Log.d("Upload Status", "Success");
+                DBHelper db = new DBHelper(this.context);
+                FileReader fr = new FileReader(file);
+                BufferedReader br = new BufferedReader(fr);
+                List<String> lsite = new ArrayList<>();
+                List<String> lpass = new ArrayList<>();
+                String s = br.readLine();
+                while(s!=null) {
+                    sb = new StringBuffer(s);
+                    c = sb.indexOf(";");
+                    String a = sb.substring(7, c-1);
+                    String b = sb.substring(c+13, sb.length()-1);
+                    lsite.add(a);
+                    lpass.add(b);
+                    s = br.readLine();
+                }
+                int len = lsite.size();
+                String[] arrs = new String[len];
+                arrs = lsite.toArray(arrs);
+                String[] arrp = new String[len];
+                arrp = lpass.toArray(arrp);
+                db.addPasswords(arrs, arrp);
+            }
+            catch (DbxException e) {
+                e.printStackTrace();
+            }
+            catch (IOException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Object o) {
+            super.onPostExecute(o);
+            dialog.dismiss();
+            Toast.makeText(context, "Passwords downloaded successfully", Toast.LENGTH_SHORT).show();
         }
     }
 }

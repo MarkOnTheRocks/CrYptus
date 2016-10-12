@@ -33,7 +33,7 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         // TODO Auto-generated method stub
-        db.execSQL("create table registry " + "(id integer primary key, site text,alg text,email text, password text,date text)");
+        db.execSQL("create table registry " + "(id integer primary key, site text unique,alg text,email text, password text,date text)");
         //db.execSQL("VACUUM");
     }
 
@@ -142,6 +142,19 @@ public class DBHelper extends SQLiteOpenHelper {
         }
         return result;
     }
+
+    public void addPasswords(String[] arrs, String[] pass) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        for(int i = 0; i<arrs.length; i++) {
+            contentValues.put("site", arrs[i]);
+            contentValues.put("date", "not available");
+            contentValues.put("password", pass[i]);
+            db.insert("registry", null, contentValues);
+        }
+    }
+
+
 
     public int numPasswords() {
         SQLiteDatabase db = this.getReadableDatabase();
